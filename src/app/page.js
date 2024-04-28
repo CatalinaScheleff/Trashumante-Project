@@ -1,11 +1,10 @@
-import Image from "next/image";
+import Hero1 from "@/components/Hero1";
 
-export default function Home() {
+
+export default function Inicio() {
   return (
     <main>
-      <h1>
-        Hello World
-      </h1>
+    <Hero1/>
     </main>
   );
 }
