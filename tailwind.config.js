@@ -25,8 +25,14 @@ module.exports = {
 				olive: "rgb(0, 184, 163)",
 				"dark-green-s": "rgb(44 187 93)",
 				"dark-blue-s": "rgb(10 132 255)",
+        "morado": "rgba(124, 58, 237, 100%)",
+		"blanco": "rgba(0,0,0,0)"
 			},
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
+  daisyui: {
+    themes: [false],
+  },
+  
 };
