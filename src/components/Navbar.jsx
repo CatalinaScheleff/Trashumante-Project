@@ -30,7 +30,7 @@ const Navbar = () => {
             <li>
               <details>
                 <summary>Nosotros</summary>
-                <ul className="p-2">
+                <ul className="p-2 bg-white">
                   <li><a>¿Quienes Somos?</a></li>
                   <li><a>Equipo</a></li>
                 </ul>
@@ -39,7 +39,7 @@ const Navbar = () => {
             <li>
               <details>
                 <summary>Servicios</summary>
-                <ul className="p-2">
+                <ul className="p-2 bg-white">
                   <li><a>Fotografía</a></li>
                   <li><a>VideoClip</a></li>
                   <li><a>Producción de Eventos</a></li>
