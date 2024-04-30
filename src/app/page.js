@@ -31,17 +31,100 @@ export default function Inicio() {
   <div className="hero-content grid grid-cols-5 col-auto">
     <div className="col-span-2">
       <h1 className="text-5xl font-bold">Conoce nuestro trabajo</h1>
-      <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+      <p className="my-8">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
       <button className="btn bg-violet-600 text-white hover:text-violet-600 border-solid border-2 border-violet-600">Contáctanos</button>
     </div>
     <div className="col grid place-items-center">
-
     <div className="bg-gray-800 mx-10 w-[700px] h-[400px]">
-
     </div>
     </div>
   </div>
 </div>
+
+{/* Hero 3 */}
+
+<div className="hero min-h-full bg-base-200 mb-20">
+
+  <div className="text-center grid place-items-center">
+
+    <div className="w-[800px] mb-10">
+<h1 className="text-5xl font-bold">Servicios</h1>
+      <p className="my-8">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+    </div>
+
+<div className="grid grid-cols-3 gap-8">
+
+  <div className="card card-compact w-96 bg-base-100 shadow-xl">
+  <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+  <div className="card-body">
+    <h2 className="card-title">Fotografía</h2>
+    <p>If a dog chews shoes whose shoes does he choose?</p>
+    <div className="card-actions justify-end">
+      <button className="btn btn-primary">Más información</button>
+    </div>
+  </div>
+</div>
+
+
+<div className="card card-compact w-96 bg-base-100 shadow-xl">
+  <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+  <div className="card-body">
+    <h2 className="card-title">VideoClip</h2>
+    <p>If a dog chews shoes whose shoes does he choose?</p>
+    <div className="card-actions justify-end">
+      <button className="btn btn-primary">Más información</button>
+    </div>
+  </div>
+</div>
+
+<div className="card card-compact w-96 bg-base-100 shadow-xl">
+  <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+  <div className="card-body">
+    <h2 className="card-title">Producción de eventos</h2>
+    <p>If a dog chews shoes whose shoes does he choose?</p>
+    <div className="card-actions justify-end">
+      <button className="btn btn-primary">Más información</button>
+    </div>
+  </div>
+</div>
+
+<div className="card card-compact w-96 bg-base-100 shadow-xl">
+  <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+  <div className="card-body">
+    <h2 className="card-title">Fotografía</h2>
+    <p>If a dog chews shoes whose shoes does he choose?</p>
+    <div className="card-actions justify-end">
+      <button className="btn btn-primary">Más información</button>
+    </div>
+  </div>
+</div>
+
+<div className="card card-compact w-96 bg-base-100 shadow-xl">
+  <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+  <div className="card-body">
+    <h2 className="card-title">VideoClip</h2>
+    <p>If a dog chews shoes whose shoes does he choose?</p>
+    <div className="card-actions justify-end">
+      <button className="btn btn-primary">Más información</button>
+    </div>
+  </div>
+</div>
+
+<div className="card card-compact w-96 bg-base-100 shadow-xl">
+  <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+  <div className="card-body">
+    <h2 className="card-title">Producción de eventos</h2>
+    <p>If a dog chews shoes whose shoes does he choose?</p>
+    <div className="card-actions justify-end">
+      <button className="btn btn-primary">Más información</button>
+    </div>
+  </div>
+</div>
+
+</div>
+  </div>
+</div>
+
 
     </main>
   );
