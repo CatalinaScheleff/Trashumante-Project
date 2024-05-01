@@ -53,9 +53,9 @@ const Navbar = () => {
         </div>
         </div>
         <div className="navbar-end">
-        <div class="w-8 h-8 bg-violet-200 rounded-full grid place-items-center mx-2"> <FaInstagram className="text-gray-700 text-xl"/> </div>
-        <div class="w-8 h-8 bg-neutral-200 rounded-full grid place-items-center mx-2"> <FaFacebook className="text-gray-700 text-xl"/> </div>
-        <div class="w-8 h-8 bg-neutral-200 rounded-full grid place-items-center mx-2"> <FaYoutube className="text-gray-700 text-xl"/> </div>
+        <div className="w-8 h-8 bg-violet-200 rounded-full grid place-items-center mx-2"> <FaInstagram className="text-gray-700 text-xl"/> </div>
+        <div className="w-8 h-8 bg-neutral-200 rounded-full grid place-items-center mx-2"> <FaFacebook className="text-gray-700 text-xl"/> </div>
+        <div className="w-8 h-8 bg-neutral-200 rounded-full grid place-items-center mx-2"> <FaYoutube className="text-gray-700 text-xl"/> </div>
         </div>
       </div>
      );
