@@ -64,28 +64,19 @@ const ContactForm = () => {
               <div className="form-control">
                 <label className="label cursor-pointer">
                   <span className="label-text">Fotografía</span>
-                  <input
-                    type="checkbox"
-                    className="w-5 h-5 accent-violet-600"
-                  />
+                  <input type="checkbox" className="w-5 h-5 accent-violet-600" name="fotografia" value="Fotografía" />
                 </label>
               </div>
               <div className="form-control">
                 <label className="label cursor-pointer">
                   <span className="label-text">Videoclip</span>
-                  <input
-                    type="checkbox"
-                    className="w-5 h-5 accent-violet-600"
-                  />
+                  <input type="checkbox" className="w-5 h-5 accent-violet-600" name="videoclip" value="Videoclip" />
                 </label>
               </div>
               <div className="form-control">
                 <label className="label cursor-pointer">
                   <span className="label-text">Producción de eventos</span>
-                  <input
-                    type="checkbox"
-                    className="w-5 h-5 accent-violet-600"
-                  />
+                  <input type="checkbox" className="w-5 h-5 accent-violet-600" name="produccionDeEventos" value="Producción de eventos" />
                 </label>
               </div>
             </div>
