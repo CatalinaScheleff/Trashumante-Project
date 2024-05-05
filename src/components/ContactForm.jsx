@@ -12,8 +12,7 @@ const ContactForm = () => {
       const email = form.current['email'].value;
       const mensaje = form.current['mensaje'].value;
       if (!nombre || !email || !mensaje) {
-        setShowValidation(true); // Activar mensajes de validación
-        alert("Por favor complete todos los campos");
+        setShowValidation(true); 
         return;
       }
   
