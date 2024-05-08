@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { FaInstagram, FaFacebook, FaYoutube } from "react-icons/fa";
 
 const Navbar = () => {
@@ -24,14 +25,14 @@ const Navbar = () => {
 
           </div>
           
-          <a className="btn btn-ghost text-sm">TRASHUMANTE</a>
+          <Link href={'/'} className="btn btn-ghost text-sm">TRASHUMANTE</Link>
         <div className="navbar-center hidden mx-4 lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
               <details>
                 <summary>Nosotros</summary>
                 <ul className="p-2 bg-white">
-                  <li><a>¿Quienes Somos?</a></li>
+                  <li><Link href={'/quienessomos'}>¿Quienes Somos?</Link></li>
                   <li><a>Equipo</a></li>
                 </ul>
               </details>
@@ -48,7 +49,7 @@ const Navbar = () => {
             </li>
             <li><a>Proyectos</a></li>
             <li><a>Galería</a></li>
-            <li><a>Contacto</a></li>
+            <li><Link href={'/contacto'}>Contacto</Link></li>
           </ul>
         </div>
         </div>

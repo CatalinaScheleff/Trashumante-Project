@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 
 
@@ -33,7 +34,9 @@ export default function Inicio() {
     <div className="col-span-2">
       <h1 className="text-5xl font-bold">Conoce nuestro trabajo</h1>
       <p className="my-8">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+      <Link href={'/contacto'}>
       <button className="btn bg-violet-600 text-white hover:text-violet-600 border-solid border-2 border-violet-600">Contáctanos</button>
+      </Link>
     </div>
     <div className="col grid place-items-center">
     <div className="bg-gray-800 mx-10 w-[700px] h-[400px]">
