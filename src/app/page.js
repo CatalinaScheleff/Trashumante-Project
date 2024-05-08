@@ -1,3 +1,4 @@
+import Image from "next/image";
 
 
 
@@ -55,7 +56,9 @@ export default function Inicio() {
 <div className="grid grid-cols-3 gap-8 place-items-center">
 
   <div className="card card-compact w-96 bg-base-100 shadow-xl">
-  <figure className="h-56"><img src="/inicio.png" alt="Shoes" /></figure>
+  <figure className="h-56">
+    <Image src="/inicio.png" alt="Shoes" width={384} height={224} />
+    </figure>
   <div className="card-body">
     <h2 className="card-title">Fotografía</h2>
     <p>If a dog chews shoes whose shoes does he choose?</p>
@@ -66,7 +69,9 @@ export default function Inicio() {
 </div>
 
 <div className="card card-compact w-96 bg-base-100 shadow-xl">
-<figure className="h-56"><img src="/inicio.png" alt="Shoes" /></figure>
+<figure className="h-56">
+<Image src="/inicio.png" alt="Shoes" width={384} height={224} />
+  </figure>
   <div className="card-body">
     <h2 className="card-title">VideoClip</h2>
     <p>If a dog chews shoes whose shoes does he choose?</p>
@@ -77,7 +82,9 @@ export default function Inicio() {
 </div>
 
 <div className="card card-compact w-96 bg-base-100 shadow-xl">
-<figure className="h-56"><img src="/inicio.png" alt="Shoes" /></figure>
+<figure className="h-56">
+<Image src="/inicio.png" alt="Shoes" width={384} height={224} />
+  </figure>
   <div className="card-body">
     <h2 className="card-title">Producción de eventos</h2>
     <p>If a dog chews shoes whose shoes does he choose?</p>
