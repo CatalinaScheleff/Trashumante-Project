@@ -207,9 +207,9 @@ const Navbar = () => {
                 </ul>
               </details>
             </li>
-            <li><a onClick={handleDetailsClick}>Proyectos</a></li>
-            <li><a onClick={handleDetailsClick}>Galería</a></li>
-            <li><Link href={'/contacto'} onClick={handleDetailsClick}>Contacto</Link></li>
+            <li><a>Proyectos</a></li>
+            <li><a>Galería</a></li>
+            <li><Link href={'/contacto'}>Contacto</Link></li>
           </ul>
         </div>
       </div>
