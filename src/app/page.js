@@ -12,7 +12,6 @@ export default function Inicio() {
         className="hero h-[550px] bg-cover bg-center"
         style={{ backgroundImage: `url(/inicio.png)` }}
       >
-       
       </div>
       <div className="text-center m-5">
         <div>
