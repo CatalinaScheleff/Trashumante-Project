@@ -9,7 +9,7 @@ export default function Inicio() {
 
   {/* Hero 1 */}
      <div
-        className="hero h-[550px] bg-cover bg-center"
+        className="hero h-[550px] w-auto bg-cover bg-center"
         style={{ backgroundImage: `url(/inicio.png)` }}
       >
       </div>
