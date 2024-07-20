@@ -2,14 +2,14 @@ import Image from "next/image";
 
 const Equipo = () => {
   return (
-    <main>
+    <main className="mx-24">
       <div className="px-5 text-center mt-16">
         <h1 className="text-5xl font-bold mb-16">Equipo</h1>
       </div>
 
       
         
-          <div className="grid grid-cols-3 gap-8 place-items-center">
+          <div className="grid gap-8 grid-cols-3 place-items-center">
 
 
           <div className="card card-compact w-96 bg-base-100 shadow-xl">
@@ -30,7 +30,7 @@ const Equipo = () => {
 
             
 
-<div className="card card-compact w-96 bg-base-100 shadow-xl">
+<div className="card card-compact w-96 bg-base-100 shadow-xl ">
   <figure className="h-96 w-96 bg-slate-600">
     <Image src="/inicio.png" alt="Shoes" width={384} height={384} className="w-full h-full object-cover"/>
   </figure>
