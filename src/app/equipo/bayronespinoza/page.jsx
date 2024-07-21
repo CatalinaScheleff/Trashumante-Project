@@ -5,9 +5,18 @@ import { FiExternalLink } from "react-icons/fi";
 const BayronEspinoza = () => {
 
     return (
-<main className="mt-16">
+<main className="mt-16 ">
       <div className="hero">
-        <div className="hero-content grid grid-cols-2 col-auto">
+        <div className="hero-content grid grid-cols-2 col-auto place-items-center ">
+
+            <div className="col grid place-items-center">
+          <figure className="row h-96 w-96 rounded-2xl">
+    <Image src="/inicio.png" alt="Shoes" width={384} height={384} className="w-full h-full object-cover rounded-2xl"/>
+  </figure>
+  <Link href={"https://www.instagram.com/bayron.exe"} className="mt-2 text-violet-600">
+  @bayron.exe
+  </Link>
+  </div>
 
           <div className="col px-5 mb-8">
             <h1 className="text-5xl font-bold mb-10">Bayron Espinoza</h1>
@@ -22,19 +31,88 @@ const BayronEspinoza = () => {
             </p>
           </div>
 
+          </div>
+          </div>
 
-<div className="col grid place-items-center">
-          <figure className="row h-96 w-96 bg-slate-600 rounded-2xl">
-    <Image src="/inicio.png" alt="Shoes" width={384} height={384} className="w-full h-full object-cover rounded-2xl"/>
-  </figure>
-  <Link href={"https://www.instagram.com/bayron.exe"} className="mt-2 text-violet-600">
-  @bayron.exe
-  </Link>
+
+
+
+          <div className="hero min-h-full bg-base-200 mb-20 mt-8">
+  <div className="text-center grid place-items-center">
+
+    <div className="w-[800px] mb-10">
+<h1 className="text-5xl font-bold">Trabajos</h1>
+     
+    </div>
+
+<div className="grid grid-cols-3 gap-x-20 gap-y-8 place-items-center">
+
+  <div className="card card-compact w-80 bg-base-100 shadow-xl">
+  <figure className="h-56">
+    <Image src="/inicio.png" alt="Shoes" width={384} height={224} />
+    </figure>
+  <div className="card-body">
+    <h2 className="card-title">Fotografía</h2>
+    <p>If a dog chews shoes whose shoes does he choose?</p>
+    <div className="card-actions justify-end">
+      <button className="btn bg-violet-600 text-white hover:text-violet-600 border-solid border-2 border-violet-600">Más información</button>
+    </div>
   </div>
+</div>
 
-<div className="px-5 w-screen">
+<div className="card card-compact w-80 bg-base-100 shadow-xl">
+  <figure className="h-56">
+    <Image src="/inicio.png" alt="Shoes" width={384} height={224} />
+    </figure>
+  <div className="card-body">
+    <h2 className="card-title">Fotografía</h2>
+    <p>If a dog chews shoes whose shoes does he choose?</p>
+    <div className="card-actions justify-end">
+      <button className="btn bg-violet-600 text-white hover:text-violet-600 border-solid border-2 border-violet-600">Más información</button>
+    </div>
+  </div>
+</div>
 
-  <h1 className="text-2xl font-bold mb-8">Trabajos</h1>
+<div className="card card-compact w-80 bg-base-100 shadow-xl">
+  <figure className="h-56">
+    <Image src="/inicio.png" alt="Shoes" width={384} height={224} />
+    </figure>
+  <div className="card-body">
+    <h2 className="card-title">Fotografía</h2>
+    <p>If a dog chews shoes whose shoes does he choose?</p>
+    <div className="card-actions justify-end">
+      <button className="btn bg-violet-600 text-white hover:text-violet-600 border-solid border-2 border-violet-600">Más información</button>
+    </div>
+  </div>
+</div>
+
+<div className="card card-compact w-80 bg-base-100 shadow-xl">
+  <figure className="h-56">
+    <Image src="/inicio.png" alt="Shoes" width={384} height={224} />
+    </figure>
+  <div className="card-body">
+    <h2 className="card-title">Fotografía</h2>
+    <p>If a dog chews shoes whose shoes does he choose?</p>
+    <div className="card-actions justify-end">
+      <button className="btn bg-violet-600 text-white hover:text-violet-600 border-solid border-2 border-violet-600">Más información</button>
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+  </div>
+</div>
+
+
+
+
+{/* <div className="px-5 w-screen  bg-slate-500">
+<div className="text-center">
+
+  <h1 className="text-3xl font-bold mb-8">Trabajos</h1>
+</div>
   <div className="justify-start flex">
 
   <h1 className=" font-bold mb-3 hover:text-violet-600">VideoClip Serpiente</h1>
@@ -45,12 +123,12 @@ const BayronEspinoza = () => {
             </p>
 
 
-</div>
+</div> */}
 
 
 
-        </div>
-      </div>
+     
+
       <div className="h-28"></div>
     </main>
     )
