@@ -73,7 +73,7 @@ const Navbar = () => {
             <li>
               <details>
                 <summary className='hover:text-violet-600'>Nosotros</summary>
-                <ul className="p-2 bg-white">
+                <ul className="p-2 bg-white rounded-b-lg rounded-none">
                   <li><Link href={'/quienessomos'} onClick={handleDetailsClick} className='hover:text-violet-600'>¿Quienes Somos?</Link></li>
                   <li><Link href={'/equipo'} onClick={handleDetailsClick} className='hover:text-violet-600'>Equipo</Link></li>
                 </ul>
@@ -82,7 +82,7 @@ const Navbar = () => {
             <li>
               <details>
                 <summary className='hover:text-violet-600'>Servicios</summary>
-                <ul className="p-2 bg-white">
+                <ul className="p-2 bg-white rounded-b-lg rounded-none">
                   <li><Link href={"/servicios/fotografia"} onClick={handleDetailsClick} className='hover:text-violet-600'>Fotografía</Link></li>
                   <li><a onClick={handleDetailsClick} className='hover:text-violet-600'>VideoClip</a></li>
                   <li><a onClick={handleDetailsClick} className='hover:text-violet-600'>Producción de Eventos</a></li>
