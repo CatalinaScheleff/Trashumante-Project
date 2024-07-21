@@ -6,8 +6,8 @@ const BayronEspinoza = () => {
 
     return (
 <main className="mt-16 ">
-      <div className="hero">
-        <div className="hero-content grid grid-cols-2 col-auto place-items-center ">
+      <div className="m-20">
+        <div className=" grid grid-cols-2 col-auto place-items-center ">
 
             <div className="col grid place-items-center">
           <figure className="row h-96 w-96 rounded-2xl">

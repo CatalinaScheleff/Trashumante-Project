@@ -83,7 +83,7 @@ const Navbar = () => {
               <details>
                 <summary className='hover:text-violet-600'>Servicios</summary>
                 <ul className="p-2 bg-white">
-                  <li><a onClick={handleDetailsClick}>Fotografía</a></li>
+                  <li><Link href={"/servicios/fotografia"} onClick={handleDetailsClick}>Fotografía</Link></li>
                   <li><a onClick={handleDetailsClick}>VideoClip</a></li>
                   <li><a onClick={handleDetailsClick}>Producción de Eventos</a></li>
                 </ul>
