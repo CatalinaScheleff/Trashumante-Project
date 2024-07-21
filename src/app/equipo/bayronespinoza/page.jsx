@@ -13,7 +13,7 @@ const BayronEspinoza = () => {
           <figure className="row h-96 w-96 rounded-2xl">
     <Image src="/inicio.png" alt="Shoes" width={384} height={384} className="w-full h-full object-cover rounded-2xl"/>
   </figure>
-  <Link href={"https://www.instagram.com/bayron.exe"} className="mt-2 text-violet-600">
+  <Link href={"https://www.instagram.com/bayron.exe"} target="_blank" rel="noopener noreferrer" className="mt-2 text-violet-600">
   @bayron.exe
   </Link>
   </div>

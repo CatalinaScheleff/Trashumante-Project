@@ -74,8 +74,8 @@ const Navbar = () => {
               <details>
                 <summary className='hover:text-violet-600'>Nosotros</summary>
                 <ul className="p-2 bg-white">
-                  <li><Link href={'/quienessomos'} onClick={handleDetailsClick}>¿Quienes Somos?</Link></li>
-                  <li><Link href={'/equipo'} onClick={handleDetailsClick}>Equipo</Link></li>
+                  <li><Link href={'/quienessomos'} onClick={handleDetailsClick} className='hover:text-violet-600'>¿Quienes Somos?</Link></li>
+                  <li><Link href={'/equipo'} onClick={handleDetailsClick} className='hover:text-violet-600'>Equipo</Link></li>
                 </ul>
               </details>
             </li>
@@ -83,13 +83,13 @@ const Navbar = () => {
               <details>
                 <summary className='hover:text-violet-600'>Servicios</summary>
                 <ul className="p-2 bg-white">
-                  <li><Link href={"/servicios/fotografia"} onClick={handleDetailsClick}>Fotografía</Link></li>
-                  <li><a onClick={handleDetailsClick}>VideoClip</a></li>
-                  <li><a onClick={handleDetailsClick}>Producción de Eventos</a></li>
+                  <li><Link href={"/servicios/fotografia"} onClick={handleDetailsClick} className='hover:text-violet-600'>Fotografía</Link></li>
+                  <li><a onClick={handleDetailsClick} className='hover:text-violet-600'>VideoClip</a></li>
+                  <li><a onClick={handleDetailsClick} className='hover:text-violet-600'>Producción de Eventos</a></li>
                 </ul>
               </details>
             </li>
-            <li><a className='hover:text-violet-600'>Proyectos</a></li>
+            <li><Link href={"/proyectos"} className='hover:text-violet-600'>Proyectos</Link></li>
             <li><a className='hover:text-violet-600'>Galería</a></li>
             <li><Link href={'/contacto'} className='hover:text-violet-600'>Contacto</Link></li>
           </ul>
@@ -97,15 +97,23 @@ const Navbar = () => {
       </div>
 
       <div className="navbar-end">
-        <div className="w-8 h-8 bg-violet-200 rounded-full grid place-items-center mx-2">
+      <Link href={"https://www.instagram.com/cineclub.aliciavega/"} target="_blank" rel="noopener noreferrer">
+      <div className="w-8 h-8 bg-violet-200 rounded-full grid place-items-center mx-2 hover:border-violet-600 hover:border-2">
           <FaInstagram className="text-gray-700 text-xl" />
         </div>
-        <div className="w-8 h-8 bg-violet-200 rounded-full grid place-items-center mx-2">
+      </Link>
+
+      <Link href={""} target="_blank" rel="noopener noreferrer">
+        <div className="w-8 h-8 bg-violet-200 rounded-full grid place-items-center mx-2 hover:border-violet-600 hover:border-2">
           <FaFacebook className="text-gray-700 text-xl" />
         </div>
-        <div className="w-8 h-8 bg-violet-200 rounded-full grid place-items-center mx-2">
+      </Link>
+
+      <Link href={""} target="_blank" rel="noopener noreferrer">
+        <div className="w-8 h-8 bg-violet-200 rounded-full grid place-items-center mx-2 hover:border-violet-600 hover:border-2">
           <FaYoutube className="text-gray-700 text-xl" />
         </div>
+      </Link>
       </div>
     </div>
   );

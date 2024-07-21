@@ -21,7 +21,7 @@ const Proyectos = () => {
     <h2 className="card-title">Cine Club Alicia Vega</h2>
     <p>If a dog chews shoes whose shoes does he choose?</p>
     <div className="card-actions justify-end">
-        <Link href={"/equipo/bayronespinoza"}>
+        <Link href={"/proyectos/cineclubaliciavega"}>
       <button className="btn bg-violet-600 text-white hover:text-violet-600 border-solid border-2 border-violet-600">
         Más información
       </button>
@@ -38,7 +38,7 @@ const Proyectos = () => {
     <h2 className="card-title">Cine Club Alicia Vega</h2>
     <p>If a dog chews shoes whose shoes does he choose?</p>
     <div className="card-actions justify-end">
-        <Link href={"/equipo/bayronespinoza"}>
+        <Link href={"/proyectos/cineclubaliciavega"}>
       <button className="btn bg-violet-600 text-white hover:text-violet-600 border-solid border-2 border-violet-600">
         Más información
       </button>
@@ -59,7 +59,7 @@ const Proyectos = () => {
     <h2 className="card-title">Cine Club Alicia Vega</h2>
     <p>If a dog chews shoes whose shoes does he choose?</p>
     <div className="card-actions justify-end">
-        <Link href={"/equipo/bayronespinoza"}>
+        <Link href={"/proyectos/cineclubaliciavega"}>
       <button className="btn bg-violet-600 text-white hover:text-violet-600 border-solid border-2 border-violet-600">
         Más información
       </button>
@@ -76,7 +76,7 @@ const Proyectos = () => {
     <h2 className="card-title">Cine Club Alicia Vega</h2>
     <p>If a dog chews shoes whose shoes does he choose?</p>
     <div className="card-actions justify-end">
-        <Link href={"/equipo/bayronespinoza"}>
+        <Link href={"/proyectos/cineclubaliciavega"}>
       <button className="btn bg-violet-600 text-white hover:text-violet-600 border-solid border-2 border-violet-600">
         Más información
       </button>
