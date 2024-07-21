@@ -41,63 +41,98 @@ const BayronEspinoza = () => {
   <div className="text-center grid place-items-center">
 
     <div className="w-[800px] mb-10">
-<h1 className="text-5xl font-bold">Trabajos</h1>
+<h1 className="text-4xl font-bold">Trabajos</h1>
      
     </div>
 
 <div className="grid grid-cols-3 gap-x-20 gap-y-8 place-items-center">
 
+      <Link href={"https://www.instagram.com/bayron.exe/"} target="_blank" rel="noopener noreferrer">
   <div className="card card-compact w-80 bg-base-100 shadow-xl">
   <figure className="h-56">
     <Image src="/inicio.png" alt="Shoes" width={384} height={224} />
     </figure>
   <div className="card-body">
-    <h2 className="card-title">Fotografía</h2>
+    <h2 className="card-title hover:text-violet-600">Fotografía <FiExternalLink className="text-xl hover:text-violet-600"/></h2>
     <p>If a dog chews shoes whose shoes does he choose?</p>
     <div className="card-actions justify-end">
-      <button className="btn bg-violet-600 text-white hover:text-violet-600 border-solid border-2 border-violet-600">Más información</button>
+      {/* <button className="btn bg-violet-600 text-white hover:text-violet-600 border-solid border-2 border-violet-600">
+      <FiExternalLink className="text-xl"/>
+      </button> */}
     </div>
   </div>
 </div>
+      </Link>
 
-<div className="card card-compact w-80 bg-base-100 shadow-xl">
+      <Link href={"https://www.instagram.com/bayron.exe/"} target="_blank" rel="noopener noreferrer">
+  <div className="card card-compact w-80 bg-base-100 shadow-xl">
   <figure className="h-56">
     <Image src="/inicio.png" alt="Shoes" width={384} height={224} />
     </figure>
   <div className="card-body">
-    <h2 className="card-title">Fotografía</h2>
+    <h2 className="card-title hover:text-violet-600">Fotografía <FiExternalLink className="text-xl hover:text-violet-600"/></h2>
     <p>If a dog chews shoes whose shoes does he choose?</p>
     <div className="card-actions justify-end">
-      <button className="btn bg-violet-600 text-white hover:text-violet-600 border-solid border-2 border-violet-600">Más información</button>
+      {/* <button className="btn bg-violet-600 text-white hover:text-violet-600 border-solid border-2 border-violet-600">
+      <FiExternalLink className="text-xl"/>
+      </button> */}
     </div>
   </div>
 </div>
+      </Link>
 
-<div className="card card-compact w-80 bg-base-100 shadow-xl">
+      <Link href={"https://www.instagram.com/bayron.exe/"} target="_blank" rel="noopener noreferrer">
+  <div className="card card-compact w-80 bg-base-100 shadow-xl">
   <figure className="h-56">
     <Image src="/inicio.png" alt="Shoes" width={384} height={224} />
     </figure>
   <div className="card-body">
-    <h2 className="card-title">Fotografía</h2>
+    <h2 className="card-title hover:text-violet-600">Fotografía <FiExternalLink className="text-xl hover:text-violet-600"/></h2>
     <p>If a dog chews shoes whose shoes does he choose?</p>
     <div className="card-actions justify-end">
-      <button className="btn bg-violet-600 text-white hover:text-violet-600 border-solid border-2 border-violet-600">Más información</button>
+      {/* <button className="btn bg-violet-600 text-white hover:text-violet-600 border-solid border-2 border-violet-600">
+      <FiExternalLink className="text-xl"/>
+      </button> */}
     </div>
   </div>
 </div>
+      </Link>
 
-<div className="card card-compact w-80 bg-base-100 shadow-xl">
+      <Link href={"https://www.instagram.com/bayron.exe/"} target="_blank" rel="noopener noreferrer">
+  <div className="card card-compact w-80 bg-base-100 shadow-xl">
   <figure className="h-56">
     <Image src="/inicio.png" alt="Shoes" width={384} height={224} />
     </figure>
   <div className="card-body">
-    <h2 className="card-title">Fotografía</h2>
+    <h2 className="card-title hover:text-violet-600">Fotografía <FiExternalLink className="text-xl hover:text-violet-600"/></h2>
     <p>If a dog chews shoes whose shoes does he choose?</p>
     <div className="card-actions justify-end">
-      <button className="btn bg-violet-600 text-white hover:text-violet-600 border-solid border-2 border-violet-600">Más información</button>
+      {/* <button className="btn bg-violet-600 text-white hover:text-violet-600 border-solid border-2 border-violet-600">
+      <FiExternalLink className="text-xl"/>
+      </button> */}
     </div>
   </div>
 </div>
+      </Link>
+
+      <Link href={"https://www.instagram.com/bayron.exe/"} target="_blank" rel="noopener noreferrer">
+  <div className="card card-compact w-80 bg-base-100 shadow-xl">
+  <figure className="h-56">
+    <Image src="/inicio.png" alt="Shoes" width={384} height={224} />
+    </figure>
+  <div className="card-body">
+    <h2 className="card-title hover:text-violet-600">Fotografía <FiExternalLink className="text-xl hover:text-violet-600"/></h2>
+    <p>If a dog chews shoes whose shoes does he choose?</p>
+    <div className="card-actions justify-end">
+      {/* <button className="btn bg-violet-600 text-white hover:text-violet-600 border-solid border-2 border-violet-600">
+      <FiExternalLink className="text-xl"/>
+      </button> */}
+    </div>
+  </div>
+</div>
+      </Link>
+
+
 
 
 
