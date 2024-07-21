@@ -90,7 +90,7 @@ const Navbar = () => {
               </details>
             </li>
             <li><Link href={"/proyectos"} className='hover:text-violet-600'>Proyectos</Link></li>
-            <li><a className='hover:text-violet-600'>Galería</a></li>
+            <li><Link href={"/galeria"} className='hover:text-violet-600'>Galería</Link></li>
             <li><Link href={'/contacto'} className='hover:text-violet-600'>Contacto</Link></li>
           </ul>
         </div>

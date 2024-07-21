@@ -13,7 +13,7 @@ const BayronEspinoza = () => {
           <figure className="row h-96 w-96 rounded-2xl">
     <Image src="/inicio.png" alt="Shoes" width={384} height={384} className="w-full h-full object-cover rounded-2xl"/>
   </figure>
-  <Link href={"https://www.instagram.com/bayron.exe"} target="_blank" rel="noopener noreferrer" className="mt-2 text-violet-600">
+  <Link href={"https://www.instagram.com/bayron.exe"} target="_blank" rel="noopener noreferrer" className="mt-2 text-bold hover:text-violet-600">
   @bayron.exe
   </Link>
   </div>
@@ -47,13 +47,13 @@ const BayronEspinoza = () => {
 
 <div className="grid grid-cols-3 gap-x-20 gap-y-8 place-items-center">
 
-      <Link href={"https://www.instagram.com/bayron.exe/"} target="_blank" rel="noopener noreferrer">
+      <Link href={"https://youtu.be/eYV335fxT4o?si=dmuq5n4OAtNUsbHR"} target="_blank" rel="noopener noreferrer">
   <div className="card card-compact w-80 bg-base-100 shadow-xl">
   <figure className="h-56">
     <Image src="/inicio.png" alt="Shoes" width={384} height={224} />
     </figure>
   <div className="card-body">
-    <h2 className="card-title hover:text-violet-600">Fotografía <FiExternalLink className="text-xl hover:text-violet-600"/></h2>
+    <h2 className="card-title hover:text-violet-600">Videoclip Serpiente <FiExternalLink className="text-xl hover:text-violet-600"/></h2>
     <p>If a dog chews shoes whose shoes does he choose?</p>
     <div className="card-actions justify-end">
       {/* <button className="btn bg-violet-600 text-white hover:text-violet-600 border-solid border-2 border-violet-600">
@@ -64,13 +64,13 @@ const BayronEspinoza = () => {
 </div>
       </Link>
 
-      <Link href={"https://www.instagram.com/bayron.exe/"} target="_blank" rel="noopener noreferrer">
+      <Link href={"https://youtu.be/eYV335fxT4o?si=dmuq5n4OAtNUsbHR"} target="_blank" rel="noopener noreferrer">
   <div className="card card-compact w-80 bg-base-100 shadow-xl">
   <figure className="h-56">
     <Image src="/inicio.png" alt="Shoes" width={384} height={224} />
     </figure>
   <div className="card-body">
-    <h2 className="card-title hover:text-violet-600">Fotografía <FiExternalLink className="text-xl hover:text-violet-600"/></h2>
+    <h2 className="card-title hover:text-violet-600">Videoclip Serpiente <FiExternalLink className="text-xl hover:text-violet-600"/></h2>
     <p>If a dog chews shoes whose shoes does he choose?</p>
     <div className="card-actions justify-end">
       {/* <button className="btn bg-violet-600 text-white hover:text-violet-600 border-solid border-2 border-violet-600">
@@ -81,13 +81,13 @@ const BayronEspinoza = () => {
 </div>
       </Link>
 
-      <Link href={"https://www.instagram.com/bayron.exe/"} target="_blank" rel="noopener noreferrer">
+      <Link href={"https://youtu.be/eYV335fxT4o?si=dmuq5n4OAtNUsbHR"} target="_blank" rel="noopener noreferrer">
   <div className="card card-compact w-80 bg-base-100 shadow-xl">
   <figure className="h-56">
     <Image src="/inicio.png" alt="Shoes" width={384} height={224} />
     </figure>
   <div className="card-body">
-    <h2 className="card-title hover:text-violet-600">Fotografía <FiExternalLink className="text-xl hover:text-violet-600"/></h2>
+    <h2 className="card-title hover:text-violet-600">Videoclip Serpiente <FiExternalLink className="text-xl hover:text-violet-600"/></h2>
     <p>If a dog chews shoes whose shoes does he choose?</p>
     <div className="card-actions justify-end">
       {/* <button className="btn bg-violet-600 text-white hover:text-violet-600 border-solid border-2 border-violet-600">
@@ -98,13 +98,13 @@ const BayronEspinoza = () => {
 </div>
       </Link>
 
-      <Link href={"https://www.instagram.com/bayron.exe/"} target="_blank" rel="noopener noreferrer">
+      <Link href={"https://youtu.be/eYV335fxT4o?si=dmuq5n4OAtNUsbHR"} target="_blank" rel="noopener noreferrer">
   <div className="card card-compact w-80 bg-base-100 shadow-xl">
   <figure className="h-56">
     <Image src="/inicio.png" alt="Shoes" width={384} height={224} />
     </figure>
   <div className="card-body">
-    <h2 className="card-title hover:text-violet-600">Fotografía <FiExternalLink className="text-xl hover:text-violet-600"/></h2>
+    <h2 className="card-title hover:text-violet-600">Videoclip Serpiente <FiExternalLink className="text-xl hover:text-violet-600"/></h2>
     <p>If a dog chews shoes whose shoes does he choose?</p>
     <div className="card-actions justify-end">
       {/* <button className="btn bg-violet-600 text-white hover:text-violet-600 border-solid border-2 border-violet-600">
@@ -115,13 +115,13 @@ const BayronEspinoza = () => {
 </div>
       </Link>
 
-      <Link href={"https://www.instagram.com/bayron.exe/"} target="_blank" rel="noopener noreferrer">
+      <Link href={"https://youtu.be/eYV335fxT4o?si=dmuq5n4OAtNUsbHR"} target="_blank" rel="noopener noreferrer">
   <div className="card card-compact w-80 bg-base-100 shadow-xl">
   <figure className="h-56">
     <Image src="/inicio.png" alt="Shoes" width={384} height={224} />
     </figure>
   <div className="card-body">
-    <h2 className="card-title hover:text-violet-600">Fotografía <FiExternalLink className="text-xl hover:text-violet-600"/></h2>
+    <h2 className="card-title hover:text-violet-600">Videoclip Serpiente <FiExternalLink className="text-xl hover:text-violet-600"/></h2>
     <p>If a dog chews shoes whose shoes does he choose?</p>
     <div className="card-actions justify-end">
       {/* <button className="btn bg-violet-600 text-white hover:text-violet-600 border-solid border-2 border-violet-600">
