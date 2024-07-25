@@ -1,10 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 import {info} from '../../data/index'
-import CardEquipo from "@/components/Cards";
+import {CardEquipo} from "@/components/Cards";
 
 const Equipo = () => {
- 
+ console.log(info)
   return (
     <main className="mx-24">
       <div className="px-5 text-center mt-16">
@@ -15,11 +15,11 @@ const Equipo = () => {
           <div className="grid gap-8 grid-cols-4 place-items-center">     
 
           {
-                info?.equipo.map((s) => {
+                info?.equipo.map((e) => {
                   
                     return (
                         <>
-                            <CardEquipo {...s} />
+                            <CardEquipo {...e} />
                         </>
                        
                     )

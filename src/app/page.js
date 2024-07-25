@@ -1,9 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
+import {info} from "../data/index"
+import {CardServicios} from "@/components/Cards";
 
 
 
 export default function Inicio() {
+  console.log(info)
   return (
     <main className="pb-16">
 
@@ -57,50 +60,15 @@ export default function Inicio() {
 
 <div className="grid grid-cols-3 gap-8 place-items-center">
 
-  <div className="card card-compact w-96 bg-base-100 shadow-xl">
-  <figure className="h-56">
-    <Image src="/inicio.png" alt="Shoes" width={384} height={224} />
-    </figure>
-  <div className="card-body">
-    <h2 className="card-title">Fotografía</h2>
-    <p>If a dog chews shoes whose shoes does he choose?</p>
-    <div className="card-actions justify-end">
-      <Link href={"/servicios/fotografia"}>
-      <button className="btn bg-violet-600 text-white hover:text-violet-600 border-solid border-2 border-violet-600">Más información</button>
-      </Link>
-    </div>
-  </div>
-</div>
-
-<div className="card card-compact w-96 bg-base-100 shadow-xl">
-<figure className="h-56">
-<Image src="/inicio.png" alt="Shoes" width={384} height={224} />
-  </figure>
-  <div className="card-body">
-    <h2 className="card-title">VideoClip</h2>
-    <p>If a dog chews shoes whose shoes does he choose?</p>
-    <div className="card-actions justify-end">
-      <Link href={"/servicios/videoclip"}>
-    <button className="btn bg-violet-600 text-white hover:text-violet-600 border-solid border-2 border-violet-600">Más información</button>
-      </Link>
-    </div>
-  </div>
-</div>
-
-<div className="card card-compact w-96 bg-base-100 shadow-xl">
-<figure className="h-56">
-<Image src="/inicio.png" alt="Shoes" width={384} height={224} />
-  </figure>
-  <div className="card-body">
-    <h2 className="card-title">Producción de eventos</h2>
-    <p>If a dog chews shoes whose shoes does he choose?</p>
-    <div className="card-actions justify-end">
-      <Link href={"/servicios/producciondeeventos"}>
-    <button className="btn bg-violet-600 text-white hover:text-violet-600 border-solid border-2 border-violet-600">Más información</button>
-      </Link>
-    </div>
-  </div>
-</div>
+{
+  info?.servicios.map((s) => {
+    return (
+    <>
+      <CardServicios {...s}/>
+    </>
+    )
+  })
+}
 
 </div>
   </div>
