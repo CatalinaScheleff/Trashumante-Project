@@ -1,7 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
+import {info} from '../../data/index'
+import CardEquipo from "@/components/Cards";
 
 const Equipo = () => {
+ 
   return (
     <main className="mx-24">
       <div className="px-5 text-center mt-16">
@@ -9,9 +12,24 @@ const Equipo = () => {
       </div>
 
         
-          <div className="grid gap-8 grid-cols-4 place-items-center">          
+          <div className="grid gap-8 grid-cols-4 place-items-center">     
 
-<div className="card card-compact w-64 bg-base-100 shadow-xl ">
+          {
+                info?.equipo.map((s) => {
+                  
+                    return (
+                        <>
+                            <CardEquipo {...s} />
+                        </>
+                       
+                    )
+                })
+            }
+
+
+
+
+{/* <div className="card card-compact w-64 bg-base-100 shadow-xl ">
   <figure className="h-64 w-64 bg-slate-600">
     <Image src="/inicio.png" alt="Shoes" width={384} height={384} className="w-full h-full object-cover"/>
   </figure>
@@ -77,8 +95,7 @@ const Equipo = () => {
         </Link>
     </div>
   </div>
-</div>
-
+</div> */}
 
 
 
