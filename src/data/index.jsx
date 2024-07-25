@@ -42,7 +42,7 @@ export const info = {
             imgUrl: '/inicio.png',
             nombre: 'Isham Kamil',
             descripcion: 'Miembro del equipo 3',
-            url: '',
+            url: '/equipo/bayronespinoza',
 
         },
         {
@@ -108,6 +108,38 @@ export const info = {
             nombre: 'Cine Club Alicia Vega',
             descripcion: 'Proyecto 4',
             url: '/proyectos/cineclubaliciavega',
+        }
+    ],
+
+
+    galeria: [
+        {
+            id: 1,
+            imgUrl: '/1.jpg',
+            nombre: 'Isham Kamil',
+            descripcion: 'Imagen 1',
+            url: '/equipo/bayronespinoza',
+        },
+        {
+            id: 2,
+            imgUrl: '/inicio.png',
+            nombre: 'Bayron Espinoza',
+            descripcion: 'Imagen 1',
+            url: '/equipo/bayronespinoza',
+        },
+        {
+            id: 3,
+            imgUrl: '/1.jpg',
+            nombre: 'Isham Kamil',
+            descripcion: 'Imagen 1',
+            url: '/equipo/bayronespinoza',
+        },
+        {
+            id: 4,
+            imgUrl: '/1.jpg',
+            nombre: 'Isham Kamil',
+            descripcion: 'Imagen 1',
+            url: '/equipo/bayronespinoza',
         }
     ],
 }

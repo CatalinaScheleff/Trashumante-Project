@@ -1,7 +1,5 @@
-'use client'
 import { Modal } from "@/components/Modal";
-import Image from "next/image";
-import Link from "next/link";
+import { info } from "../../data/index";
 
 const Galeria = () => {
   return (
@@ -11,10 +9,9 @@ const Galeria = () => {
       </div>
 
       <div className="grid grid-cols-4 gap-y-4 place-items-center">
-
-<Modal/>
-
-
+        {info?.galeria?.map((img, index) => (
+          <Modal key={index} {...img} modalId={`modal_${img.id}`} />
+        ))}
       </div>
 
       <div className="h-28"></div>
