@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import PropTypes from 'prop-types';
+import { FiExternalLink } from 'react-icons/fi';
 
 export function CardEquipo({ imgUrl, nombre, descripcion, url }) {
   return (
@@ -77,6 +78,35 @@ export function CardProyectos({ imgUrl, nombre, descripcion, url }) {
     </div>
   </div>
 </div>
+  );
+}
+
+CardProyectos.propTypes = {
+  imgUrl: PropTypes.string.isRequired,
+  nombre: PropTypes.string.isRequired,
+  descripcion: PropTypes.string.isRequired,
+  url: PropTypes.string.isRequired,
+};
+
+
+export function CardTrabajos({ imgUrl, nombre, descripcion, url }) {
+  return (
+    <Link href={"https://youtu.be/eYV335fxT4o?si=dmuq5n4OAtNUsbHR"} target="_blank" rel="noopener noreferrer">
+    <div className="card card-compact w-80 bg-base-100 shadow-xl">
+    <figure className="h-56">
+      <Image src="/inicio.png" alt="Shoes" width={384} height={224} />
+      </figure>
+    <div className="card-body">
+      <h2 className="card-title hover:text-violet-600">Videoclip Serpiente <FiExternalLink className="text-xl hover:text-violet-600"/></h2>
+      <p>If a dog chews shoes whose shoes does he choose?</p>
+      <div className="card-actions justify-end">
+        {/* <button className="btn bg-violet-600 text-white hover:text-violet-600 border-solid border-2 border-violet-600">
+        <FiExternalLink className="text-xl"/>
+        </button> */}
+      </div>
+    </div>
+  </div>
+        </Link>
   );
 }
 

@@ -6,6 +6,29 @@ export const info = {
             nombre: 'Isham Kamil',
             descripcion: 'Miembro del equipo 1',
             url: '/equipo/bayronespinoza',
+            trabajos: [
+                {
+                    id: 1,
+                    imgUrl: '/inicip.png',
+                    nombre: 'Videoclip Serpiente',
+                    descripcion: 'Trabajo 1',
+                    url: 'https://www.youtube.com/watch?v=eYV335fxT4o'
+                },
+                {
+                    id: 2,
+                    imgUrl: '/inicip.png',
+                    nombre: 'Videoclip Serpiente',
+                    descripcion: 'Trabajo 2',
+                    url: 'https://www.youtube.com/watch?v=eYV335fxT4o'
+                },
+                {
+                    id: 3,
+                    imgUrl: '/inicip.png',
+                    nombre: 'Videoclip Serpiente',
+                    descripcion: 'Trabajo 3',
+                    url: 'https://www.youtube.com/watch?v=eYV335fxT4o'
+                },
+            ]
         },
         {
             id: 2,
@@ -20,6 +43,7 @@ export const info = {
             nombre: 'Isham Kamil',
             descripcion: 'Miembro del equipo 3',
             url: '',
+
         },
         {
             id: 4,
@@ -27,6 +51,7 @@ export const info = {
             nombre: 'Bayron Espinoza',
             descripcion: 'Miembro del equipo 4',
             url: '/equipo/bayronespinoza',
+
         }
     ],
 
