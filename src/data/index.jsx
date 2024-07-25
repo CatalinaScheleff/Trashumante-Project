@@ -52,5 +52,37 @@ export const info = {
             descripcion: 'Servicio 3',
             url: '/servicios/fotografia'
         },
-    ]
+    ],
+
+
+    proyectos: [
+        {
+            id: 1,
+            imgUrl: '/inicio.png',
+            nombre: 'Cine Club Alicia Vega',
+            descripcion: 'Proyecto 1',
+            url: '/proyectos/cineclubaliciavega',
+        },
+        {
+            id: 2,
+            imgUrl: '/inicio.png',
+            nombre: 'Cine Club Alicia Vega',
+            descripcion: 'Proyecto 2',
+            url: '/proyectos/cineclubaliciavega',
+        },
+        {
+            id: 3,
+            imgUrl: '/inicio.png',
+            nombre: 'Cine Club Alicia Vega',
+            descripcion: 'Proyecto 3',
+            url: '/proyectos/cineclubaliciavega',
+        },
+        {
+            id: 4,
+            imgUrl: '/inicio.png',
+            nombre: 'Cine Club Alicia Vega',
+            descripcion: 'Proyecto 4',
+            url: '/proyectos/cineclubaliciavega',
+        }
+    ],
 }
