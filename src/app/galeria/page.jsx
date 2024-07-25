@@ -1,7 +1,9 @@
+'use client'
+import { Modal } from "@/components/Modal";
 import Image from "next/image";
 import Link from "next/link";
 
-const Proyectos = () => {
+const Galeria = () => {
   return (
     <main className="mx-12">
       <div className="px-5 text-center mt-16">
@@ -10,21 +12,8 @@ const Proyectos = () => {
 
       <div className="grid grid-cols-4 gap-y-4 place-items-center">
 
-        <div className="col bg-slate-500 h-[222px] w-[318px]">image</div>
+<Modal/>
 
-        <div className="col bg-slate-500 h-[222px] w-[318px]">image</div>
-
-        <div className="col bg-slate-500 h-[222px] w-[318px]">image</div>
-
-        <div className="col bg-slate-500 h-[222px] w-[318px]">image</div>
-
-        <div className="col bg-slate-500 h-[222px] w-[318px]">image</div>
-
-        <div className="col bg-slate-500 h-[222px] w-[318px]">image</div>
-
-        <div className="col bg-slate-500 h-[222px] w-[318px]">image</div>
-
-        <div className="col bg-slate-500 h-[222px] w-[318px]">image</div>
 
       </div>
 
@@ -33,4 +22,4 @@ const Proyectos = () => {
   );
 };
 
-export default Proyectos;
+export default Galeria;
