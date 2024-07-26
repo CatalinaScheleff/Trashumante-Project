@@ -2,28 +2,31 @@ export const info = {
     equipo: [
         {
             id: 1,
-            imgUrl: '/inicio.png',
+            imgUrl: '/1.jpg',
             nombre: 'Isham Kamil',
             descripcion: 'Miembro del equipo 1',
             url: '/equipo/bayronespinoza',
+            urlredsocial: 'https://www.instagram.com/bayron.exe',
+            redsocial: '@bayron.exe',
+            texto:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut mollis est. Nulla tristique orci in sagittis feugiat. Donec bibendum, dui id bibendum feugiat, ipsum nibh commodo ligula, eget eleifend nisl ipsum consectetur lacus. Nullam id leo interdum, bibendum augue nec, facilisis erat. Curabitur et laoreet arcu. Curabitur faucibus sem quam, sed porta neque sodales vel. Nullam blandit tincidunt tempus. Nulla facilisi. Donec tempus enim ac enim volutpat, semper iaculis lorem auctor. Sed non rutrum massa, id pellentesque dolor. Morbi efficitur varius congue. Nunc in convallis urna. Sed accumsan lacus eget urna hendrerit sagittis.",
             trabajos: [
                 {
                     id: 1,
-                    imgUrl: '/inicip.png',
+                    imgUrl: '/inicio.png',
                     nombre: 'Videoclip Serpiente',
                     descripcion: 'Trabajo 1',
                     url: 'https://www.youtube.com/watch?v=eYV335fxT4o'
                 },
                 {
                     id: 2,
-                    imgUrl: '/inicip.png',
+                    imgUrl: '/1.jpg',
                     nombre: 'Videoclip Serpiente',
                     descripcion: 'Trabajo 2',
                     url: 'https://www.youtube.com/watch?v=eYV335fxT4o'
                 },
                 {
                     id: 3,
-                    imgUrl: '/inicip.png',
+                    imgUrl: '/inicio.png',
                     nombre: 'Videoclip Serpiente',
                     descripcion: 'Trabajo 3',
                     url: 'https://www.youtube.com/watch?v=eYV335fxT4o'
@@ -36,6 +39,18 @@ export const info = {
             nombre: 'Bayron Espinoza',
             descripcion: 'Miembro del equipo 2',
             url: '/equipo/bayronespinoza',
+            urlredsocial: 'https://www.instagram.com/bayron.exe',
+            redsocial: '@bayron.exe',
+            texto:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut mollis est. Nulla tristique orci in sagittis feugiat. Donec bibendum, dui id bibendum feugiat, ipsum nibh commodo ligula, eget eleifend nisl ipsum consectetur lacus. Nullam id leo interdum, bibendum augue nec, facilisis erat. Curabitur et laoreet arcu. Curabitur faucibus sem quam, sed porta neque sodales vel. Nullam blandit tincidunt tempus. Nulla facilisi. Donec tempus enim ac enim volutpat, semper iaculis lorem auctor. Sed non rutrum massa, id pellentesque dolor. Morbi efficitur varius congue. Nunc in convallis urna. Sed accumsan lacus eget urna hendrerit sagittis.",
+            trabajos: [
+                {
+                    id: 1,
+                    imgUrl: '/inicio.png',
+                    nombre: 'Videoclip Serpiente',
+                    descripcion: 'Trabajo 1',
+                    url: 'https://www.youtube.com/watch?v=eYV335fxT4o'
+                },
+            ]
         },
         {
             id: 3,
@@ -43,6 +58,18 @@ export const info = {
             nombre: 'Isham Kamil',
             descripcion: 'Miembro del equipo 3',
             url: '/equipo/bayronespinoza',
+            urlredsocial: 'https://www.instagram.com/bayron.exe',
+            redsocial: '@bayron.exe',
+            texto:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut mollis est. Nulla tristique orci in sagittis feugiat. Donec bibendum, dui id bibendum feugiat, ipsum nibh commodo ligula, eget eleifend nisl ipsum consectetur lacus. Nullam id leo interdum, bibendum augue nec, facilisis erat. Curabitur et laoreet arcu. Curabitur faucibus sem quam, sed porta neque sodales vel. Nullam blandit tincidunt tempus. Nulla facilisi. Donec tempus enim ac enim volutpat, semper iaculis lorem auctor. Sed non rutrum massa, id pellentesque dolor. Morbi efficitur varius congue. Nunc in convallis urna. Sed accumsan lacus eget urna hendrerit sagittis.",
+            trabajos: [
+                {
+                    id: 1,
+                    imgUrl: '/inicio.png',
+                    nombre: 'Videoclip Serpiente',
+                    descripcion: 'Trabajo 1',
+                    url: 'https://www.youtube.com/watch?v=eYV335fxT4o'
+                },
+            ]
 
         },
         {
@@ -51,6 +78,18 @@ export const info = {
             nombre: 'Bayron Espinoza',
             descripcion: 'Miembro del equipo 4',
             url: '/equipo/bayronespinoza',
+            urlredsocial: 'https://www.instagram.com/bayron.exe',
+            redsocial: '@bayron.exe',
+            texto:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut mollis est. Nulla tristique orci in sagittis feugiat. Donec bibendum, dui id bibendum feugiat, ipsum nibh commodo ligula, eget eleifend nisl ipsum consectetur lacus. Nullam id leo interdum, bibendum augue nec, facilisis erat. Curabitur et laoreet arcu. Curabitur faucibus sem quam, sed porta neque sodales vel. Nullam blandit tincidunt tempus. Nulla facilisi. Donec tempus enim ac enim volutpat, semper iaculis lorem auctor. Sed non rutrum massa, id pellentesque dolor. Morbi efficitur varius congue. Nunc in convallis urna. Sed accumsan lacus eget urna hendrerit sagittis.",
+            trabajos: [
+                {
+                    id: 1,
+                    imgUrl: '/1.jpg',
+                    nombre: 'Videoclip Serpiente',
+                    descripcion: 'Trabajo 1',
+                    url: 'https://www.youtube.com/watch?v=eYV335fxT4o'
+                },
+            ]
 
         }
     ],
