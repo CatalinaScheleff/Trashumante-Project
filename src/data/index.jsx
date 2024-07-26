@@ -97,24 +97,36 @@ export const info = {
     servicios: [
         {
             id: 1,
-            imgUrl: '/inicio.png',
+            imgUrl: '/1.jpg',
             nombre: 'Fotografia',
             descripcion: 'Servicio 1',
-            url: '/servicios/fotografia'
+            url: '/servicios/fotografia',
+            urlgaleria: '/galeria',
+            galeria: 'Nuestra Galería',
+            texto:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut mollis est. Nulla tristique orci in sagittis feugiat. Donec bibendum, dui id bibendum feugiat, ipsum nibh commodo ligula, eget eleifend nisl ipsum consectetur lacus. Nullam id leo interdum, bibendum augue nec, facilisis erat. Curabitur et laoreet arcu. Curabitur faucibus sem quam, sed porta neque sodales vel. Nullam blandit tincidunt tempus. Nulla facilisi. Donec tempus enim ac enim volutpat, semper iaculis lorem auctor. Sed non rutrum massa, id pellentesque dolor. Morbi efficitur varius congue. Nunc in convallis urna. Sed accumsan lacus eget urna hendrerit sagittis.",
+
         },
         {
             id: 2,
             imgUrl: '/inicio.png',
             nombre: 'Video Clip',
             descripcion: 'Servicio 2',
-            url: '/servicios/fotografia'
+            url1: '/servicios/fotografia',
+            urlgaleria: '/galeria',
+            galeria: 'Nuestra Galería',
+            texto:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut mollis est. Nulla tristique orci in sagittis feugiat. Donec bibendum, dui id bibendum feugiat, ipsum nibh commodo ligula, eget eleifend nisl ipsum consectetur lacus. Nullam id leo interdum, bibendum augue nec, facilisis erat. Curabitur et laoreet arcu. Curabitur faucibus sem quam, sed porta neque sodales vel. Nullam blandit tincidunt tempus. Nulla facilisi. Donec tempus enim ac enim volutpat, semper iaculis lorem auctor. Sed non rutrum massa, id pellentesque dolor. Morbi efficitur varius congue. Nunc in convallis urna. Sed accumsan lacus eget urna hendrerit sagittis.",
+
         },
         {
             id: 3,
             imgUrl: '/inicio.png',
             nombre: 'Producción de eventos',
             descripcion: 'Servicio 3',
-            url: '/servicios/fotografia'
+            url1: '/servicios/fotografia',
+            urlgaleria: '/galeria',
+            galeria: 'Nuestra Galería',
+            texto:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut mollis est. Nulla tristique orci in sagittis feugiat. Donec bibendum, dui id bibendum feugiat, ipsum nibh commodo ligula, eget eleifend nisl ipsum consectetur lacus. Nullam id leo interdum, bibendum augue nec, facilisis erat. Curabitur et laoreet arcu. Curabitur faucibus sem quam, sed porta neque sodales vel. Nullam blandit tincidunt tempus. Nulla facilisi. Donec tempus enim ac enim volutpat, semper iaculis lorem auctor. Sed non rutrum massa, id pellentesque dolor. Morbi efficitur varius congue. Nunc in convallis urna. Sed accumsan lacus eget urna hendrerit sagittis.",
+
         },
     ],
 

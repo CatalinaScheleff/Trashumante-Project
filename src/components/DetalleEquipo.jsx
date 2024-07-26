@@ -3,7 +3,7 @@ import Link from "next/link";
 import { CardTrabajos } from "./Cards";
 import PropTypes from 'prop-types';
 
-export function Detalle ({imgUrl, nombre, descripcion, url, urlredsocial, redsocial, texto, trabajos}) {
+export function DetalleEquipo ({imgUrl, nombre, descripcion, url, urlredsocial, redsocial, texto, trabajos}) {
     console.log(trabajos)
 return (
     <main className="mt-16 ">
@@ -64,7 +64,7 @@ return (
 )
 }
 
-Detalle.propTypes = {
+DetalleEquipo.propTypes = {
     imgUrl: PropTypes.string.isRequired,
     nombre: PropTypes.string.isRequired,
     descripcion: PropTypes.string.isRequired,
