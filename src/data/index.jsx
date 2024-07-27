@@ -97,10 +97,10 @@ export const info = {
     servicios: [
         {
             id: 1,
-            imgUrl: '/1.jpg',
+            imgUrl: '/servicios/foto.jpg',
             nombre: 'Fotografia',
             descripcion: 'Servicio 1',
-            url: '/servicios/fotografia',
+            url: '/servicios/1',
             urlgaleria: '/galeria',
             galeria: 'Nuestra Galería',
             texto:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut mollis est. Nulla tristique orci in sagittis feugiat. Donec bibendum, dui id bibendum feugiat, ipsum nibh commodo ligula, eget eleifend nisl ipsum consectetur lacus. Nullam id leo interdum, bibendum augue nec, facilisis erat. Curabitur et laoreet arcu. Curabitur faucibus sem quam, sed porta neque sodales vel. Nullam blandit tincidunt tempus. Nulla facilisi. Donec tempus enim ac enim volutpat, semper iaculis lorem auctor. Sed non rutrum massa, id pellentesque dolor. Morbi efficitur varius congue. Nunc in convallis urna. Sed accumsan lacus eget urna hendrerit sagittis.",
@@ -108,10 +108,10 @@ export const info = {
         },
         {
             id: 2,
-            imgUrl: '/inicio.png',
+            imgUrl: '/servicios/vclip.jpg',
             nombre: 'Video Clip',
             descripcion: 'Servicio 2',
-            url1: '/servicios/fotografia',
+            url: '/servicios/2',
             urlgaleria: '/galeria',
             galeria: 'Nuestra Galería',
             texto:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut mollis est. Nulla tristique orci in sagittis feugiat. Donec bibendum, dui id bibendum feugiat, ipsum nibh commodo ligula, eget eleifend nisl ipsum consectetur lacus. Nullam id leo interdum, bibendum augue nec, facilisis erat. Curabitur et laoreet arcu. Curabitur faucibus sem quam, sed porta neque sodales vel. Nullam blandit tincidunt tempus. Nulla facilisi. Donec tempus enim ac enim volutpat, semper iaculis lorem auctor. Sed non rutrum massa, id pellentesque dolor. Morbi efficitur varius congue. Nunc in convallis urna. Sed accumsan lacus eget urna hendrerit sagittis.",
@@ -119,10 +119,10 @@ export const info = {
         },
         {
             id: 3,
-            imgUrl: '/inicio.png',
+            imgUrl: '/servicios/pevent.jpg',
             nombre: 'Producción de eventos',
             descripcion: 'Servicio 3',
-            url1: '/servicios/fotografia',
+            url: '/servicios/3',
             urlgaleria: '/galeria',
             galeria: 'Nuestra Galería',
             texto:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut mollis est. Nulla tristique orci in sagittis feugiat. Donec bibendum, dui id bibendum feugiat, ipsum nibh commodo ligula, eget eleifend nisl ipsum consectetur lacus. Nullam id leo interdum, bibendum augue nec, facilisis erat. Curabitur et laoreet arcu. Curabitur faucibus sem quam, sed porta neque sodales vel. Nullam blandit tincidunt tempus. Nulla facilisi. Donec tempus enim ac enim volutpat, semper iaculis lorem auctor. Sed non rutrum massa, id pellentesque dolor. Morbi efficitur varius congue. Nunc in convallis urna. Sed accumsan lacus eget urna hendrerit sagittis.",
@@ -137,28 +137,121 @@ export const info = {
             imgUrl: '/inicio.png',
             nombre: 'Cine Club Alicia Vega',
             descripcion: 'Proyecto 1',
-            url: '/proyectos/cineclubaliciavega',
+            url: '/proyectos/1',
+            redsocial: [
+               {
+                    id: 1,
+                    nombre: 'Instagram',
+                    icono: 'Instagram',
+                    url: 'https://www.instagram.com/cineclub.aliciavega/'
+                },
+                {
+                    id: 2,
+                    nombre: 'Facebook',
+                    icono: 'Facebook',
+                    url: 'https://www.facebook.com/cineclubaliciavega'
+                },
+                {
+                    id: 3,
+                    nombre: 'Youtube',
+                    icono: 'Youtube',
+                    url: 'https://www.instagram.com/cineclub.aliciavega/'
+                },
+                
+            ],
+            texto:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut mollis est. Nulla tristique orci in sagittis feugiat. Donec bibendum, dui id bibendum feugiat, ipsum nibh commodo ligula, eget eleifend nisl ipsum consectetur lacus. Nullam id leo interdum, bibendum augue nec, facilisis erat. Curabitur et laoreet arcu. Curabitur faucibus sem quam, sed porta neque sodales vel. Nullam blandit tincidunt tempus. Nulla facilisi. Donec tempus enim ac enim volutpat, semper iaculis lorem auctor. Sed non rutrum massa, id pellentesque dolor. Morbi efficitur varius congue. Nunc in convallis urna. Sed accumsan lacus eget urna hendrerit sagittis.",
+
+            
         },
         {
             id: 2,
             imgUrl: '/inicio.png',
             nombre: 'Cine Club Alicia Vega',
             descripcion: 'Proyecto 2',
-            url: '/proyectos/cineclubaliciavega',
+            url: '/proyectos/2',
+            redsocial: [
+                {
+                     id: 1,
+                     nombre: 'Instagram',
+                     icono: 'Instagram',
+                     url: 'https://www.instagram.com/cineclub.aliciavega/'
+                 },
+                 {
+                     id: 2,
+                     nombre: 'Facebook',
+                     icono: 'Facebook',
+                     url: 'https://www.facebook.com/cineclubaliciavega'
+                 },
+                 {
+                     id: 3,
+                     nombre: 'Youtube',
+                     icono: 'Youtube',
+                     url: 'https://www.instagram.com/cineclub.aliciavega/'
+                 },
+                 
+             ],
+            texto:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut mollis est. Nulla tristique orci in sagittis feugiat. Donec bibendum, dui id bibendum feugiat, ipsum nibh commodo ligula, eget eleifend nisl ipsum consectetur lacus. Nullam id leo interdum, bibendum augue nec, facilisis erat. Curabitur et laoreet arcu. Curabitur faucibus sem quam, sed porta neque sodales vel. Nullam blandit tincidunt tempus. Nulla facilisi. Donec tempus enim ac enim volutpat, semper iaculis lorem auctor. Sed non rutrum massa, id pellentesque dolor. Morbi efficitur varius congue. Nunc in convallis urna. Sed accumsan lacus eget urna hendrerit sagittis.",
+
         },
         {
             id: 3,
             imgUrl: '/inicio.png',
             nombre: 'Cine Club Alicia Vega',
             descripcion: 'Proyecto 3',
-            url: '/proyectos/cineclubaliciavega',
+            url: '/proyectos/3',
+            redsocial: [
+                {
+                     id: 1,
+                     nombre: 'Instagram',
+                     icono: 'Instagram',
+                     url: 'https://www.instagram.com/cineclub.aliciavega/'
+                 },
+                 {
+                     id: 2,
+                     nombre: 'Facebook',
+                     icono: 'Facebook',
+                     url: 'https://www.facebook.com/cineclubaliciavega'
+                 },
+                 {
+                     id: 3,
+                     nombre: 'Youtube',
+                     icono: 'Youtube',
+                     url: 'https://www.instagram.com/cineclub.aliciavega/'
+                 },
+                 
+             ],
+            texto:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut mollis est. Nulla tristique orci in sagittis feugiat. Donec bibendum, dui id bibendum feugiat, ipsum nibh commodo ligula, eget eleifend nisl ipsum consectetur lacus. Nullam id leo interdum, bibendum augue nec, facilisis erat. Curabitur et laoreet arcu. Curabitur faucibus sem quam, sed porta neque sodales vel. Nullam blandit tincidunt tempus. Nulla facilisi. Donec tempus enim ac enim volutpat, semper iaculis lorem auctor. Sed non rutrum massa, id pellentesque dolor. Morbi efficitur varius congue. Nunc in convallis urna. Sed accumsan lacus eget urna hendrerit sagittis.",
+
         },
         {
             id: 4,
             imgUrl: '/inicio.png',
             nombre: 'Cine Club Alicia Vega',
             descripcion: 'Proyecto 4',
-            url: '/proyectos/cineclubaliciavega',
+            url: '/proyectos/4',
+            redsocial: [
+                {
+                     id: 1,
+                     nombre: 'Instagram',
+                     icono: 'Instagram',
+                     url: 'https://www.instagram.com/cineclub.aliciavega/'
+                 },
+                 {
+                     id: 2,
+                     nombre: 'Facebook',
+                     icono: 'Facebook',
+                     url: 'https://www.facebook.com/cineclubaliciavega'
+                 },
+                 {
+                     id: 3,
+                     nombre: 'Youtube',
+                     icono: 'Youtube',
+                     url: 'https://www.instagram.com/cineclub.aliciavega/'
+                 },
+                 
+             ],
+             texto:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut mollis est. Nulla tristique orci in sagittis feugiat. Donec bibendum, dui id bibendum feugiat, ipsum nibh commodo ligula, eget eleifend nisl ipsum consectetur lacus. Nullam id leo interdum, bibendum augue nec, facilisis erat. Curabitur et laoreet arcu. Curabitur faucibus sem quam, sed porta neque sodales vel. Nullam blandit tincidunt tempus. Nulla facilisi. Donec tempus enim ac enim volutpat, semper iaculis lorem auctor. Sed non rutrum massa, id pellentesque dolor. Morbi efficitur varius congue. Nunc in convallis urna. Sed accumsan lacus eget urna hendrerit sagittis.",
+ 
         }
     ],
 
@@ -169,28 +262,28 @@ export const info = {
             imgUrl: '/1.jpg',
             nombre: 'Isham Kamil',
             descripcion: 'Imagen 1',
-            url: '/equipo/bayronespinoza',
+            url: '/equipo/1',
         },
         {
             id: 2,
             imgUrl: '/inicio.png',
             nombre: 'Bayron Espinoza',
             descripcion: 'Imagen 1',
-            url: '/equipo/bayronespinoza',
+            url: '/equipo/2',
         },
         {
             id: 3,
             imgUrl: '/1.jpg',
             nombre: 'Isham Kamil',
             descripcion: 'Imagen 1',
-            url: '/equipo/bayronespinoza',
+            url: '/equipo/1',
         },
         {
             id: 4,
             imgUrl: '/1.jpg',
             nombre: 'Isham Kamil',
             descripcion: 'Imagen 1',
-            url: '/equipo/bayronespinoza',
+            url: '/equipo/4',
         }
     ],
 }
