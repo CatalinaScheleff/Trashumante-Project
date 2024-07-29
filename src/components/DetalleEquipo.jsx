@@ -7,10 +7,11 @@ export function DetalleEquipo ({imgUrl, nombre, descripcion, url, urlredsocial, 
     console.log(trabajos)
 return (
     <main className="mt-16 ">
-    <div className="m-20">
-      <div className=" grid grid-cols-2 col-auto place-items-center ">
+    <div className="md:mx-8 lg:m-20">
+      <div className=" grid md:grid-cols-2 col-auto place-items-center ">
+
         <div className="col grid place-items-center">
-          <figure className="row h-96 w-96 rounded-2xl">
+          <figure className="row h-80 w-80 lg:w-96 lg:h-96 rounded-2xl">
             <Image
               src={imgUrl}
               alt=""
@@ -29,10 +30,10 @@ return (
           </Link>
         </div>
 
-        <div className="col px-5 mb-8">
-          <h1 className="text-5xl font-bold mb-10">{nombre}</h1>
+        <div className="col px-5 mb-8 text-center">
+          <h1 className="text-5xl font-bold mb-10 mt-5">{nombre}</h1>
           
-          <p className="my-8">
+          <p className=" my-8">
            {texto}
           </p>
         </div>
@@ -41,11 +42,11 @@ return (
 
     <div className="hero min-h-full bg-base-200 mb-20 mt-8">
       <div className="text-center grid place-items-center">
-        <div className="w-[800px] mb-10">
+        <div className=" mb-10">
           <h1 className="text-4xl font-bold">Trabajos</h1>
         </div>
 
-        <div className="grid grid-cols-3 gap-x-20 gap-y-8 place-items-center">
+        <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-x-20 gap-y-8 place-items-center">
             {
                 trabajos?.map((t) => {
                     return (
