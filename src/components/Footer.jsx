@@ -10,7 +10,7 @@ const Footer = () => {
 <div className="grid place-items-center w-full">
   <a className="btn btn-ghost text-sm">TRASHUMANTE</a>
 </div>
-  <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+  <nav className=" grid  md:grid-flow-col gap-4 md:place-self-center justify-self-end">
   <div className="w-8 h-8 grid place-items-center mx-2"> <FaInstagram className="text-3xl"/> </div>
         <div className="w-8 h-8 grid place-items-center mx-2"> <FaFacebook className="text-3xl"/> </div>
         <div className="w-8 h-8 grid place-items-center mx-2"> <FaYoutube className="text-3xl"/> </div>
