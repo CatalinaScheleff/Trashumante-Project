@@ -12,7 +12,7 @@ export function DetalleServicio ({imgUrl, nombre, descripcion, url, urlgaleria, 
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold">{nombre}</h1>
         <p className="my-8 lg:mr-10">{texto} </p>
         <Link href={urlgaleria}>
-        <button className="btn bg-violet-600 text-white hover:text-violet-600 border-solid border-2 border-violet-600">{galeria}</button>
+        <button className="btn mb-4 bg-violet-600 text-white hover:text-violet-600 border-solid border-2 border-violet-600">{galeria}</button>
         </Link>
         <Link href={'/contacto'} className="mx-3">
         <button className="btn bg-violet-600 text-white hover:text-violet-600 border-solid border-2 border-violet-600">Contáctanos</button>

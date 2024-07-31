@@ -13,16 +13,16 @@ export function DetalleProyecto({ imgUrl, nombre, descripcion, url, redsocial, t
   };
 
   return (
-    <main className="mx-16">
-      <div className="bg-base-200 p-20">
-        <div className="grid grid-cols-2 col-auto">
-          <div className="col">
-            <h1 className="text-5xl font-bold">{nombre}</h1>
-            <p className="my-8 mr-10">
+    <main className="md:mx-16 pb-40 md:pb-20">
+      <div className="bg-base-200 p-8 xl:p-20">
+        <div className="grid lg:grid-cols-2 col-auto">
+          <div className="col text-center grid place-items-center">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold">{nombre}</h1>
+            <p className="my-8 lg:mr-10">
               {texto}
                    </p>
 
-            <div className="justify-content-center flex">
+            <div className="justify-center flex lg:mr-10 pb-10">
               {redsocial?.map((r) => {
                 
                 const IconComponent = iconos[r.icono];
@@ -41,7 +41,7 @@ export function DetalleProyecto({ imgUrl, nombre, descripcion, url, redsocial, t
           </div>
 
           <div className="col grid place-items-center">
-            <div className="bg-gray-800 w-[530px] h-[420px]">
+            <div className="bg-gray-800 ">
               <Image
                 src={imgUrl}
                 alt={nombre}
