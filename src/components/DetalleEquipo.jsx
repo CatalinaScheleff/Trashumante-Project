@@ -31,7 +31,7 @@ return (
         </div>
 
         <div className="col px-5 mb-8 text-center">
-          <h1 className="text-5xl font-bold mb-10 mt-5">{nombre}</h1>
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-10 mt-5">{nombre}</h1>
           
           <p className=" my-8">
            {texto}

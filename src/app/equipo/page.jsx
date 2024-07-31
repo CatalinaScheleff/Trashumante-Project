@@ -7,8 +7,8 @@ const Equipo = () => {
  console.log(info)
   return (
     <main className="lg:mx-24 pb-20 md:pb-4">
-      <div className="px-5 text-center mt-16">
-        <h1 className="text-5xl font-bold mb-16">Equipo</h1>
+      <div className="px-5 text-center mt-6 lg:mt-16">
+        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-8 lg:mb-16">Equipo</h1>
       </div>
 
         

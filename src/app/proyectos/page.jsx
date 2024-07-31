@@ -6,13 +6,13 @@ import {info} from "../../data/index"
 const Proyectos = () => {
   console.log(info)
   return (
-    <main className="mx-24">
-      <div className="px-5 text-center mt-16">
-        <h1 className="text-5xl font-bold mb-16">Proyectos</h1>
+    <main className="px-8 md:mx-24 pb-20">
+      <div className="px-5 text-center mt-8 lg:mt-16">
+        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-8 lg:mb-16">Proyectos</h1>
       </div>
 
         
-          <div className="grid gap-x-8 gap-y-12 grid-cols-2 place-items-center"> 
+          <div className="grid gap-x-8 gap-y-12 md:grid-cols-2 place-items-center"> 
 
 {
   info?.proyectos.map((p) => {

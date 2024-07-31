@@ -62,7 +62,7 @@ CardServicios.propTypes = {
 
 export function CardProyectos({ imgUrl, nombre, descripcion, url }) {
   return (
-<div className="card card-compact w-[512px] bg-base-100 shadow-xl ">
+<div className="card card-compact bg-base-100 shadow-xl ">
   <figure className="bg-slate-600">
     <Image src={imgUrl} alt="Shoes" width={512} height={656} className="w-full h-full object-cover"/>
   </figure>
