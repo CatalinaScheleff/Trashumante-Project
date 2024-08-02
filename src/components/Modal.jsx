@@ -7,7 +7,7 @@ export function Modal({ imgUrl, nombre, descripcion, url, modalId }) {
     return (
       <>
         <div
-          className="col relative bg-slate-500 h-[222px] w-[318px] btn border-none"
+          className="col relative bg-slate-500 h-[222px] w-[318px] lg:w-[300px] xl:w-[318px]btn border-none"
           onClick={() => document.getElementById(modalId).showModal()}
         >
           <Image src={imgUrl} alt="" layout="fill" className="object-cover" />
