@@ -72,7 +72,7 @@ const ContactForm = () => {
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail} className="">
+    <form ref={form} onSubmit={sendEmail} className="md:pl-14 lg:pl-0">
       <label className="form-control w-full max-w-ls mb-5">
         <div className="label">
           <span className="label-text">Nombre</span>

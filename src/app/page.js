@@ -14,7 +14,7 @@ export default function Inicio() {
       ></div>
       <div className="text-center m-5">
         <div>
-          <h1 className="text-4xl md:text-[5xl] lg:text-6xl font-bold">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold">
             Trashumante Audiovisual
           </h1>
         </div>
@@ -54,7 +54,7 @@ export default function Inicio() {
       <div className=" min-h-full bg-base-200 mb-20">
         <div className="text-center grid place-items-center">
           <div className="w-screen mb-10 grid place-items-center text-center px-4">
-            <h1 className="text-3xl md:text-[4xl] lg:text-5xl font-bold">Servicios</h1>
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold">Servicios</h1>
             <p className="py-8">
               Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
               excepturi exercitationem quasi. In deleniti eaque aut repudiandae

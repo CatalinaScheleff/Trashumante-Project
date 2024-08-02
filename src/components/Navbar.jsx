@@ -259,7 +259,7 @@ const Navbar = () => {
 
       <div className="navbar-end">
         <Link
-          href={"https://www.instagram.com/cineclub.aliciavega/"}
+          href={"https://www.instagram.com/trashumanteaudiovisual/"}
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -268,13 +268,13 @@ const Navbar = () => {
           </div>
         </Link>
 
-        <Link href={""} target="_blank" rel="noopener noreferrer">
+        <Link href={"https://www.facebook.com/profile.php?id=100009760328604"} target="_blank" rel="noopener noreferrer">
           <div className="w-8 h-8 bg-violet-200 rounded-full grid place-items-center mx-2 hover:border-violet-600 hover:border-2">
             <FaFacebook className="text-gray-700 text-xl" />
           </div>
         </Link>
 
-        <Link href={""} target="_blank" rel="noopener noreferrer">
+        <Link href={"https://www.youtube.com/@trashumante_audiovisual"} target="_blank" rel="noopener noreferrer">
           <div className="w-8 h-8 bg-violet-200 rounded-full grid place-items-center mx-2 hover:border-violet-600 hover:border-2">
             <FaYoutube className="text-gray-700 text-xl" />
           </div>
