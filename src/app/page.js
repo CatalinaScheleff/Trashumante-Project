@@ -7,7 +7,7 @@ export default function Inicio() {
   console.log(info);
   return (
     <main className=" pb-24 md:pb-16 ">
-      {/* Hero 1 */}
+      {/* 1 */}
       <div
         className="h-[200px] w-screen bg-cover bg-center md:h-[300px] lg:h-[550px]"
         style={{ backgroundImage: `url(/inicio.png)` }}
@@ -27,9 +27,9 @@ export default function Inicio() {
         </div>
       </div>
 
-      {/* Hero 2 */}
+      {/* 2 */}
       <div className=" min-w-screen bg-base-200 grid place-items-center my-32">
-        <div className=" grid place-items-center lg:grid-cols-2 lg:w-4/5 col-auto">
+        <div className=" grid place-items-center lg:grid-cols-2 xl:w-4/5 col-auto">
           <div className=" grid place-items-center text-center px-10 ">
             <h1 className="text-3xl md:text-[4xl] lg:text-5xl font-bold">Conoce nuestro trabajo</h1>
             <p className="my-8">
@@ -44,12 +44,12 @@ export default function Inicio() {
             </Link>
           </div>
           <div className="  ">
-            <div className="bg-gray-800 md:mx-10 w-[300px] h-[200px] md:w-[600px] md:h-[400px] lg:w-[600px] lg:h-[400px]"></div>
+            <div className="bg-gray-800 md:mx-10 w-[300px] h-[200px] lg:w-[400px] lg:h-[300px] md:w-[600px] md:h-[400px] xl:w-[600px] xl:h-[400px]"></div>
           </div>
         </div>
       </div>
 
-      {/* Hero 3 */}
+      {/* 3 */}
 
       <div className=" min-h-full bg-base-200 mb-20">
         <div className="text-center grid place-items-center">

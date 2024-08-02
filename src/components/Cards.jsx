@@ -33,7 +33,7 @@ CardEquipo.propTypes = {
 
 export function CardServicios({ imgUrl, nombre, descripcion, url }) {
   return (
-    <div className="card card-compact w-72 md:w-80 lg:w-96 bg-base-100 shadow-xl">
+    <div className="card card-compact w-72 md:w-80 lg:w-72 xl:w-96 bg-base-100 shadow-xl">
       <figure className="h-56">
         <Image src={imgUrl} alt="Shoes" width={384} height={224} />
       </figure>
