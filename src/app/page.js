@@ -1,7 +1,9 @@
+'use client'
 import Image from "next/image";
 import Link from "next/link";
 import { info } from "../data/index";
 import { CardServicios } from "@/components/Cards";
+import YouTube from "react-youtube";
 
 export default function Inicio() {
   console.log(info);
@@ -44,7 +46,9 @@ export default function Inicio() {
             </Link>
           </div>
           <div className="  ">
-            <div className="bg-gray-800 md:mx-10 w-[300px] h-[200px] lg:w-[400px] lg:h-[300px] md:w-[600px] md:h-[400px] xl:w-[600px] xl:h-[400px]"></div>
+            <div className="bg-gray-800 md:mx-10 w-[300px] lg:w-[400px]  md:w-[600px]  xl:w-[600px] ">
+              <YouTube videoId="" iframeClassName="w-full"/>
+            </div>
           </div>
         </div>
       </div>
