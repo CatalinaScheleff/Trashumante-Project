@@ -46,8 +46,8 @@ export default function Inicio() {
             </Link>
           </div>
           <div className="  ">
-            <div className="bg-gray-800 md:mx-10 w-[300px] lg:w-[400px]  md:w-[600px]  xl:w-[600px] ">
-              <YouTube videoId="" iframeClassName="w-full"/>
+            <div className=" md:mx-10 w-[300px] lg:w-[400px]  md:w-[600px]  xl:w-[600px] ">
+              <YouTube videoId="eYV335fxT4o" loading="lazy" iframeClassName="w-full"/>
             </div>
           </div>
         </div>
