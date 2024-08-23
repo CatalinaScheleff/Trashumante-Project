@@ -4,7 +4,7 @@ export const info = {
             id: 1,
             imgUrl: '/1.jpg',
             nombre: 'Isham Kamil',
-            descripcion: 'Produccion',
+            descripcion: 'Encargada de Gestión y Community Manager en Cine Club Alicia Vega, Productora, Directora, Cámara, Fotógrafa y Montaje',
             url: '/equipo/1',
             urlredsocial: 'https://www.instagram.com/lasestrellas.soninvisibles',
             redsocial: '@lasestrellas.soninvisibles',
@@ -37,7 +37,7 @@ export const info = {
             id: 2,
             imgUrl: '/inicio.png',
             nombre: 'Bayron Espinoza',
-            descripcion: 'Miembro del equipo 2',
+            descripcion: 'Inspector de Cuentas, Director, Director de Fotografía, Cámara, Montaje, Diseño Gráfico, Técnico Cine Club Alicia Vega',
             url: '/equipo/2',
             urlredsocial: 'https://www.instagram.com/bayron.exe',
             redsocial: '@bayron.exe',
@@ -55,8 +55,8 @@ export const info = {
         {
             id: 3,
             imgUrl: '/inicio.png',
-            nombre: 'Isham Kamil',
-            descripcion: 'Miembro del equipo 3',
+            nombre: 'Antonio Hernández Cabrera',
+            descripcion: 'Director, Director de Fotografía, Camarógrafo, Fotógrafo, Diseñador Gráfico y Montajista',
             url: '/equipo/3',
             urlredsocial: 'https://www.instagram.com/bayron.exe',
             redsocial: '@bayron.exe',
@@ -75,9 +75,109 @@ export const info = {
         {
             id: 4,
             imgUrl: '/inicio.png',
-            nombre: 'Bayron Espinoza',
-            descripcion: 'Miembro del equipo 4',
+            nombre: 'Karina Andrea Gutierrez Rojo',
+            descripcion: 'Gerenta administradora de la Cooperativa, Productora, Directora, Guionista y Montajista',
             url: '/equipo/4',
+            urlredsocial: 'https://www.instagram.com/bayron.exe',
+            redsocial: '@bayron.exe',
+            texto:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut mollis est. Nulla tristique orci in sagittis feugiat. Donec bibendum, dui id bibendum feugiat, ipsum nibh commodo ligula, eget eleifend nisl ipsum consectetur lacus. Nullam id leo interdum, bibendum augue nec, facilisis erat. Curabitur et laoreet arcu. Curabitur faucibus sem quam, sed porta neque sodales vel. Nullam blandit tincidunt tempus. Nulla facilisi. Donec tempus enim ac enim volutpat, semper iaculis lorem auctor. Sed non rutrum massa, id pellentesque dolor. Morbi efficitur varius congue. Nunc in convallis urna. Sed accumsan lacus eget urna hendrerit sagittis.",
+            trabajos: [
+                {
+                    id: 1,
+                    imgUrl: '/1.jpg',
+                    nombre: 'Videoclip Serpiente',
+                    descripcion: 'Trabajo 1',
+                    url: 'https://www.youtube.com/watch?v=eYV335fxT4o'
+                },
+            ]
+
+        },
+        {
+            id: 5,
+            imgUrl: '/inicio.png',
+            nombre: 'Constanza Torres Quiroz',
+            descripcion: 'Directora, Guionista, Directora de Fotografía, Cámara y Montaje, Moderadora cineclub Alicia Vega',
+            url: '/equipo/5',
+            urlredsocial: 'https://www.instagram.com/bayron.exe',
+            redsocial: '@bayron.exe',
+            texto:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut mollis est. Nulla tristique orci in sagittis feugiat. Donec bibendum, dui id bibendum feugiat, ipsum nibh commodo ligula, eget eleifend nisl ipsum consectetur lacus. Nullam id leo interdum, bibendum augue nec, facilisis erat. Curabitur et laoreet arcu. Curabitur faucibus sem quam, sed porta neque sodales vel. Nullam blandit tincidunt tempus. Nulla facilisi. Donec tempus enim ac enim volutpat, semper iaculis lorem auctor. Sed non rutrum massa, id pellentesque dolor. Morbi efficitur varius congue. Nunc in convallis urna. Sed accumsan lacus eget urna hendrerit sagittis.",
+            trabajos: [
+                {
+                    id: 1,
+                    imgUrl: '/1.jpg',
+                    nombre: 'Videoclip Serpiente',
+                    descripcion: 'Trabajo 1',
+                    url: 'https://www.youtube.com/watch?v=eYV335fxT4o'
+                },
+            ]
+
+        },
+        {
+            id: 6,
+            imgUrl: '/inicio.png',
+            nombre: 'Paulina Martínez (Pickúa)',
+            descripcion: 'Gestión, producción, Comunnity Manager y Moderadora Cineclub Alicia Vega',
+            url: '/equipo/6',
+            urlredsocial: 'https://www.instagram.com/bayron.exe',
+            redsocial: '@bayron.exe',
+            texto:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut mollis est. Nulla tristique orci in sagittis feugiat. Donec bibendum, dui id bibendum feugiat, ipsum nibh commodo ligula, eget eleifend nisl ipsum consectetur lacus. Nullam id leo interdum, bibendum augue nec, facilisis erat. Curabitur et laoreet arcu. Curabitur faucibus sem quam, sed porta neque sodales vel. Nullam blandit tincidunt tempus. Nulla facilisi. Donec tempus enim ac enim volutpat, semper iaculis lorem auctor. Sed non rutrum massa, id pellentesque dolor. Morbi efficitur varius congue. Nunc in convallis urna. Sed accumsan lacus eget urna hendrerit sagittis.",
+            trabajos: [
+                {
+                    id: 1,
+                    imgUrl: '/1.jpg',
+                    nombre: 'Videoclip Serpiente',
+                    descripcion: 'Trabajo 1',
+                    url: 'https://www.youtube.com/watch?v=eYV335fxT4o'
+                },
+            ]
+
+        },
+        {
+            id: 7,
+            imgUrl: '/inicio.png',
+            nombre: 'Valentina Paz Arenas Zapata',
+            descripcion: 'Fotógrafa Cine Club Alicia Vega y montajista',
+            url: '/equipo/7',
+            urlredsocial: 'https://www.instagram.com/bayron.exe',
+            redsocial: '@bayron.exe',
+            texto:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut mollis est. Nulla tristique orci in sagittis feugiat. Donec bibendum, dui id bibendum feugiat, ipsum nibh commodo ligula, eget eleifend nisl ipsum consectetur lacus. Nullam id leo interdum, bibendum augue nec, facilisis erat. Curabitur et laoreet arcu. Curabitur faucibus sem quam, sed porta neque sodales vel. Nullam blandit tincidunt tempus. Nulla facilisi. Donec tempus enim ac enim volutpat, semper iaculis lorem auctor. Sed non rutrum massa, id pellentesque dolor. Morbi efficitur varius congue. Nunc in convallis urna. Sed accumsan lacus eget urna hendrerit sagittis.",
+            trabajos: [
+                {
+                    id: 1,
+                    imgUrl: '/1.jpg',
+                    nombre: 'Videoclip Serpiente',
+                    descripcion: 'Trabajo 1',
+                    url: 'https://www.youtube.com/watch?v=eYV335fxT4o'
+                },
+            ]
+
+        },
+        {
+            id: 8,
+            imgUrl: '/inicio.png',
+            nombre: 'Valentina Paz Arenas Zapata',
+            descripcion: 'Fotógrafa Cine Club Alicia Vega y montajista',
+            url: '/equipo/8',
+            urlredsocial: 'https://www.instagram.com/bayron.exe',
+            redsocial: '@bayron.exe',
+            texto:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut mollis est. Nulla tristique orci in sagittis feugiat. Donec bibendum, dui id bibendum feugiat, ipsum nibh commodo ligula, eget eleifend nisl ipsum consectetur lacus. Nullam id leo interdum, bibendum augue nec, facilisis erat. Curabitur et laoreet arcu. Curabitur faucibus sem quam, sed porta neque sodales vel. Nullam blandit tincidunt tempus. Nulla facilisi. Donec tempus enim ac enim volutpat, semper iaculis lorem auctor. Sed non rutrum massa, id pellentesque dolor. Morbi efficitur varius congue. Nunc in convallis urna. Sed accumsan lacus eget urna hendrerit sagittis.",
+            trabajos: [
+                {
+                    id: 1,
+                    imgUrl: '/1.jpg',
+                    nombre: 'Videoclip Serpiente',
+                    descripcion: 'Trabajo 1',
+                    url: 'https://www.youtube.com/watch?v=eYV335fxT4o'
+                },
+            ]
+
+        },
+        {
+            id: 9,
+            imgUrl: '/inicio.png',
+            nombre: 'Cecilia Belliz Latorre',
+            descripcion: 'Montajista y Colorista',
+            url: '/equipo/9',
             urlredsocial: 'https://www.instagram.com/bayron.exe',
             redsocial: '@bayron.exe',
             texto:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut mollis est. Nulla tristique orci in sagittis feugiat. Donec bibendum, dui id bibendum feugiat, ipsum nibh commodo ligula, eget eleifend nisl ipsum consectetur lacus. Nullam id leo interdum, bibendum augue nec, facilisis erat. Curabitur et laoreet arcu. Curabitur faucibus sem quam, sed porta neque sodales vel. Nullam blandit tincidunt tempus. Nulla facilisi. Donec tempus enim ac enim volutpat, semper iaculis lorem auctor. Sed non rutrum massa, id pellentesque dolor. Morbi efficitur varius congue. Nunc in convallis urna. Sed accumsan lacus eget urna hendrerit sagittis.",

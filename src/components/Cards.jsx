@@ -5,7 +5,7 @@ import { FiExternalLink } from 'react-icons/fi';
 
 export function CardEquipo({ imgUrl, nombre, descripcion, url }) {
   return (
-    <div className="card card-compact w-64 bg-base-100 shadow-xl">
+    <div className="card card-compact w-64 h-[480px] bg-base-100 shadow-xl ">
       <figure className="h-64 w-64 bg-slate-600">
         <Image src={imgUrl} alt="" width={384} height={384} className="w-full h-full object-cover" />
       </figure>
