@@ -9,9 +9,12 @@ const ContactForm = () => {
     nombre: "",
     email: "",
     mensaje: "",
+    realizacionAudiovisual: false,
     fotografia: false,
-    videoclip: false,
-    produccionDeEventos: false,
+    proyeccion: false,
+    sonido: false,
+    gestion: false,
+    postProduccion: false,
   });
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
@@ -45,9 +48,12 @@ const ContactForm = () => {
             nombre: "",
             email: "",
             mensaje: "",
+            realizacionAudiovisual: false,
             fotografia: false,
-            videoclip: false,
-            produccionDeEventos: false,
+            proyeccion: false,
+            sonido: false,
+            gestion: false,
+            postProduccion: false,
           });
           // Close dropdown
           setDropdownOpen(false);
@@ -122,6 +128,21 @@ const ContactForm = () => {
             Seleccione servicios
           </div>
           <div className="collapse-content">
+
+          <div className="form-control">
+              <label className="label cursor-pointer">
+                <span className="label-text">Realización Audiovisual</span>
+                <input
+                  type="checkbox"
+                  className="w-5 h-5 accent-violet-600"
+                  name="realizacionAudiovisual"
+                  checked={formData.realizacionAudiovisual}
+                  onChange={handleInputChange}
+                  value={"Realización Audiovisual"}
+                />
+              </label>
+            </div>
+
             <div className="form-control">
               <label className="label cursor-pointer">
                 <span className="label-text">Fotografía</span>
@@ -135,32 +156,63 @@ const ContactForm = () => {
                 />
               </label>
             </div>
+
             <div className="form-control">
               <label className="label cursor-pointer">
-                <span className="label-text">Videoclip</span>
+                <span className="label-text">Proyección</span>
                 <input
                   type="checkbox"
                   className="w-5 h-5 accent-violet-600"
-                  name="videoclip"
-                  checked={formData.videoclip}
+                  name="proyeccion"
+                  checked={formData.proyeccion}
                   onChange={handleInputChange}
-                  value={"Videoclip"}
+                  value={"Proyección"}
                 />
               </label>
             </div>
+
             <div className="form-control">
               <label className="label cursor-pointer">
-                <span className="label-text">Producción de eventos</span>
+                <span className="label-text">Sonido</span>
                 <input
                   type="checkbox"
                   className="w-5 h-5 accent-violet-600"
-                  name="produccionDeEventos"
-                  checked={formData.produccionDeEventos}
+                  name="sonido"
+                  checked={formData.sonido}
                   onChange={handleInputChange}
-                  value={"Producción de eventos"}
+                  value={"Sonido"}
                 />
               </label>
             </div>
+
+            <div className="form-control">
+              <label className="label cursor-pointer">
+                <span className="label-text">Gestión y producción de proyectos</span>
+                <input
+                  type="checkbox"
+                  className="w-5 h-5 accent-violet-600"
+                  name="gestion"
+                  checked={formData.gestion}
+                  onChange={handleInputChange}
+                  value={"Gestión y producción de proyectos"}
+                />
+              </label>
+            </div>
+
+            <div className="form-control">
+              <label className="label cursor-pointer">
+                <span className="label-text">Post Producción</span>
+                <input
+                  type="checkbox"
+                  className="w-5 h-5 accent-violet-600"
+                  name="postProduccion"
+                  checked={formData.postProduccion}
+                  onChange={handleInputChange}
+                  value={"Post Producción"}
+                />
+              </label>
+            </div>
+
           </div>
         </div>
       </div>

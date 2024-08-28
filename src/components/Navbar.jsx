@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import { FaInstagram, FaFacebook, FaYoutube } from "react-icons/fa";
+import { info } from "@/data";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -209,33 +210,23 @@ const Navbar = () => {
             <details>
               <summary className="hover:text-violet-600">Servicios</summary>
               <ul className="p-2 bg-white rounded-b-lg rounded-none">
+
+              {info?.servicios.map((s) => {
+              return (
+                <>
                 <li>
                   <Link
-                    href={"/servicios/1"}
+                    href={`/servicios/${s.id}`}
                     onClick={handleDetailsClick}
                     className="hover:text-violet-600"
                   >
-                    Fotografía
+                    {s.nombre}
                   </Link>
                 </li>
-                <li>
-                  <Link
-                    href={"/servicios/2"}
-                    onClick={handleDetailsClick}
-                    className="hover:text-violet-600"
-                  >
-                    Videoclip
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href={"/servicios/3"}
-                    onClick={handleDetailsClick}
-                    className="hover:text-violet-600"
-                  >
-                    Producción de Eventos
-                  </Link>
-                </li>
+                </>
+              );
+            })}
+                
               </ul>
             </details>
           </li>
