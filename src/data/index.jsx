@@ -201,8 +201,8 @@ export const info = {
             nombre: 'Fotografia',
             descripcion: 'Servicio 1',
             url: '/servicios/1',
-            // urlgaleria: '/galeria',
-            // galeria: 'Nuestra Galería',
+            urlgaleria: '/galeria',
+            galeria: 'Nuestra Galería',
             texto:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut mollis est. Nulla tristique orci in sagittis feugiat. Donec bibendum, dui id bibendum feugiat, ipsum nibh commodo ligula, eget eleifend nisl ipsum consectetur lacus. Nullam id leo interdum, bibendum augue nec, facilisis erat. Curabitur et laoreet arcu. Curabitur faucibus sem quam, sed porta neque sodales vel. Nullam blandit tincidunt tempus. Nulla facilisi. Donec tempus enim ac enim volutpat, semper iaculis lorem auctor. Sed non rutrum massa, id pellentesque dolor. Morbi efficitur varius congue. Nunc in convallis urna. Sed accumsan lacus eget urna hendrerit sagittis.",
 
         },
