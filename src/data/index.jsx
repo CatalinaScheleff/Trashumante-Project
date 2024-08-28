@@ -257,7 +257,7 @@ export const info = {
             id: 1,
             imgUrl: '/inicio.png',
             nombre: 'Cine Club Alicia Vega',
-            descripcion: 'Proyecto 1',
+            descripcion: 'Espacio de exhibición y reflexión cinematográfica',
             url: '/proyectos/1',
             redsocial: [
                {
@@ -287,8 +287,8 @@ export const info = {
         {
             id: 2,
             imgUrl: '/inicio.png',
-            nombre: 'Cine Club Alicia Vega',
-            descripcion: 'Proyecto 2',
+            nombre: 'Pasalacalle, el arte de resistir',
+            descripcion: 'Largometraje documental',
             url: '/proyectos/2',
             redsocial: [
                 {
@@ -317,8 +317,8 @@ export const info = {
         {
             id: 3,
             imgUrl: '/inicio.png',
-            nombre: 'Cine Club Alicia Vega',
-            descripcion: 'Proyecto 3',
+            nombre: 'Vidiela, el archivo de una bestia',
+            descripcion: 'Largometraje documental',
             url: '/proyectos/3',
             redsocial: [
                 {
@@ -347,8 +347,8 @@ export const info = {
         {
             id: 4,
             imgUrl: '/inicio.png',
-            nombre: 'Cine Club Alicia Vega',
-            descripcion: 'Proyecto 4',
+            nombre: 'Gala',
+            descripcion: 'Largometraje documental4',
             url: '/proyectos/4',
             redsocial: [
                 {
@@ -373,7 +373,247 @@ export const info = {
              ],
              texto:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut mollis est. Nulla tristique orci in sagittis feugiat. Donec bibendum, dui id bibendum feugiat, ipsum nibh commodo ligula, eget eleifend nisl ipsum consectetur lacus. Nullam id leo interdum, bibendum augue nec, facilisis erat. Curabitur et laoreet arcu. Curabitur faucibus sem quam, sed porta neque sodales vel. Nullam blandit tincidunt tempus. Nulla facilisi. Donec tempus enim ac enim volutpat, semper iaculis lorem auctor. Sed non rutrum massa, id pellentesque dolor. Morbi efficitur varius congue. Nunc in convallis urna. Sed accumsan lacus eget urna hendrerit sagittis.",
  
-        }
+        },
+        {
+            id: 5,
+            imgUrl: '/inicio.png',
+            nombre: 'Celsa, la hormiguita invencible',
+            descripcion: 'Largometraje documental',
+            url: '/proyectos/5',
+            redsocial: [
+                {
+                     id: 1,
+                     nombre: 'Instagram',
+                     icono: 'Instagram',
+                     url: 'https://www.instagram.com/cineclub.aliciavega/'
+                 },
+                 {
+                     id: 2,
+                     nombre: 'Facebook',
+                     icono: 'Facebook',
+                     url: 'https://www.facebook.com/cineclubaliciavega'
+                 },
+                 {
+                     id: 3,
+                     nombre: 'Youtube',
+                     icono: 'Youtube',
+                     url: 'https://www.instagram.com/cineclub.aliciavega/'
+                 },
+                 
+             ],
+             texto:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut mollis est. Nulla tristique orci in sagittis feugiat. Donec bibendum, dui id bibendum feugiat, ipsum nibh commodo ligula, eget eleifend nisl ipsum consectetur lacus. Nullam id leo interdum, bibendum augue nec, facilisis erat. Curabitur et laoreet arcu. Curabitur faucibus sem quam, sed porta neque sodales vel. Nullam blandit tincidunt tempus. Nulla facilisi. Donec tempus enim ac enim volutpat, semper iaculis lorem auctor. Sed non rutrum massa, id pellentesque dolor. Morbi efficitur varius congue. Nunc in convallis urna. Sed accumsan lacus eget urna hendrerit sagittis.",
+ 
+        },
+        {
+            id: 6,
+            imgUrl: '/inicio.png',
+            nombre: 'Somos el río',
+            descripcion: 'Cortometraje documental',
+            url: '/proyectos/6',
+            redsocial: [
+                {
+                     id: 1,
+                     nombre: 'Instagram',
+                     icono: 'Instagram',
+                     url: 'https://www.instagram.com/cineclub.aliciavega/'
+                 },
+                 {
+                     id: 2,
+                     nombre: 'Facebook',
+                     icono: 'Facebook',
+                     url: 'https://www.facebook.com/cineclubaliciavega'
+                 },
+                 {
+                     id: 3,
+                     nombre: 'Youtube',
+                     icono: 'Youtube',
+                     url: 'https://www.instagram.com/cineclub.aliciavega/'
+                 },
+                 
+             ],
+             texto:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut mollis est. Nulla tristique orci in sagittis feugiat. Donec bibendum, dui id bibendum feugiat, ipsum nibh commodo ligula, eget eleifend nisl ipsum consectetur lacus. Nullam id leo interdum, bibendum augue nec, facilisis erat. Curabitur et laoreet arcu. Curabitur faucibus sem quam, sed porta neque sodales vel. Nullam blandit tincidunt tempus. Nulla facilisi. Donec tempus enim ac enim volutpat, semper iaculis lorem auctor. Sed non rutrum massa, id pellentesque dolor. Morbi efficitur varius congue. Nunc in convallis urna. Sed accumsan lacus eget urna hendrerit sagittis.",
+ 
+        },
+        {
+            id: 7,
+            imgUrl: '/inicio.png',
+            nombre: 'Sequía',
+            descripcion: 'Cortometraje ficción',
+            url: '/proyectos/7',
+            redsocial: [
+                {
+                     id: 1,
+                     nombre: 'Instagram',
+                     icono: 'Instagram',
+                     url: 'https://www.instagram.com/cineclub.aliciavega/'
+                 },
+                 {
+                     id: 2,
+                     nombre: 'Facebook',
+                     icono: 'Facebook',
+                     url: 'https://www.facebook.com/cineclubaliciavega'
+                 },
+                 {
+                     id: 3,
+                     nombre: 'Youtube',
+                     icono: 'Youtube',
+                     url: 'https://www.instagram.com/cineclub.aliciavega/'
+                 },
+                 
+             ],
+             texto:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut mollis est. Nulla tristique orci in sagittis feugiat. Donec bibendum, dui id bibendum feugiat, ipsum nibh commodo ligula, eget eleifend nisl ipsum consectetur lacus. Nullam id leo interdum, bibendum augue nec, facilisis erat. Curabitur et laoreet arcu. Curabitur faucibus sem quam, sed porta neque sodales vel. Nullam blandit tincidunt tempus. Nulla facilisi. Donec tempus enim ac enim volutpat, semper iaculis lorem auctor. Sed non rutrum massa, id pellentesque dolor. Morbi efficitur varius congue. Nunc in convallis urna. Sed accumsan lacus eget urna hendrerit sagittis.",
+ 
+        },
+        {
+            id: 8,
+            imgUrl: '/inicio.png',
+            nombre: 'Serpiente',
+            descripcion: 'Videoclip de Addis Ababa',
+            url: '/proyectos/8',
+            redsocial: [
+                {
+                     id: 1,
+                     nombre: 'Instagram',
+                     icono: 'Instagram',
+                     url: 'https://www.instagram.com/cineclub.aliciavega/'
+                 },
+                 {
+                     id: 2,
+                     nombre: 'Facebook',
+                     icono: 'Facebook',
+                     url: 'https://www.facebook.com/cineclubaliciavega'
+                 },
+                 {
+                     id: 3,
+                     nombre: 'Youtube',
+                     icono: 'Youtube',
+                     url: 'https://www.instagram.com/cineclub.aliciavega/'
+                 },
+                 
+             ],
+             texto:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut mollis est. Nulla tristique orci in sagittis feugiat. Donec bibendum, dui id bibendum feugiat, ipsum nibh commodo ligula, eget eleifend nisl ipsum consectetur lacus. Nullam id leo interdum, bibendum augue nec, facilisis erat. Curabitur et laoreet arcu. Curabitur faucibus sem quam, sed porta neque sodales vel. Nullam blandit tincidunt tempus. Nulla facilisi. Donec tempus enim ac enim volutpat, semper iaculis lorem auctor. Sed non rutrum massa, id pellentesque dolor. Morbi efficitur varius congue. Nunc in convallis urna. Sed accumsan lacus eget urna hendrerit sagittis.",
+ 
+        },
+        {
+            id: 9,
+            imgUrl: '/inicio.png',
+            nombre: 'Bien Boni',
+            descripcion: 'Videoclip de de Araceli Cantora',
+            url: '/proyectos/9',
+            redsocial: [
+                {
+                     id: 1,
+                     nombre: 'Instagram',
+                     icono: 'Instagram',
+                     url: 'https://www.instagram.com/cineclub.aliciavega/'
+                 },
+                 {
+                     id: 2,
+                     nombre: 'Facebook',
+                     icono: 'Facebook',
+                     url: 'https://www.facebook.com/cineclubaliciavega'
+                 },
+                 {
+                     id: 3,
+                     nombre: 'Youtube',
+                     icono: 'Youtube',
+                     url: 'https://www.instagram.com/cineclub.aliciavega/'
+                 },
+                 
+             ],
+             texto:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut mollis est. Nulla tristique orci in sagittis feugiat. Donec bibendum, dui id bibendum feugiat, ipsum nibh commodo ligula, eget eleifend nisl ipsum consectetur lacus. Nullam id leo interdum, bibendum augue nec, facilisis erat. Curabitur et laoreet arcu. Curabitur faucibus sem quam, sed porta neque sodales vel. Nullam blandit tincidunt tempus. Nulla facilisi. Donec tempus enim ac enim volutpat, semper iaculis lorem auctor. Sed non rutrum massa, id pellentesque dolor. Morbi efficitur varius congue. Nunc in convallis urna. Sed accumsan lacus eget urna hendrerit sagittis.",
+ 
+        },
+        {
+            id: 10,
+            imgUrl: '/inicio.png',
+            nombre: 'Lucho',
+            descripcion: 'Videoclip de Niña Carolo',
+            url: '/proyectos/10',
+            redsocial: [
+                {
+                     id: 1,
+                     nombre: 'Instagram',
+                     icono: 'Instagram',
+                     url: 'https://www.instagram.com/cineclub.aliciavega/'
+                 },
+                 {
+                     id: 2,
+                     nombre: 'Facebook',
+                     icono: 'Facebook',
+                     url: 'https://www.facebook.com/cineclubaliciavega'
+                 },
+                 {
+                     id: 3,
+                     nombre: 'Youtube',
+                     icono: 'Youtube',
+                     url: 'https://www.instagram.com/cineclub.aliciavega/'
+                 },
+                 
+             ],
+             texto:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut mollis est. Nulla tristique orci in sagittis feugiat. Donec bibendum, dui id bibendum feugiat, ipsum nibh commodo ligula, eget eleifend nisl ipsum consectetur lacus. Nullam id leo interdum, bibendum augue nec, facilisis erat. Curabitur et laoreet arcu. Curabitur faucibus sem quam, sed porta neque sodales vel. Nullam blandit tincidunt tempus. Nulla facilisi. Donec tempus enim ac enim volutpat, semper iaculis lorem auctor. Sed non rutrum massa, id pellentesque dolor. Morbi efficitur varius congue. Nunc in convallis urna. Sed accumsan lacus eget urna hendrerit sagittis.",
+ 
+        },
+        {
+            id: 11,
+            imgUrl: '/inicio.png',
+            nombre: 'Deformación performática del género',
+            descripcion: 'Miniserie documental',
+            url: '/proyectos/11',
+            redsocial: [
+                {
+                     id: 1,
+                     nombre: 'Instagram',
+                     icono: 'Instagram',
+                     url: 'https://www.instagram.com/cineclub.aliciavega/'
+                 },
+                 {
+                     id: 2,
+                     nombre: 'Facebook',
+                     icono: 'Facebook',
+                     url: 'https://www.facebook.com/cineclubaliciavega'
+                 },
+                 {
+                     id: 3,
+                     nombre: 'Youtube',
+                     icono: 'Youtube',
+                     url: 'https://www.instagram.com/cineclub.aliciavega/'
+                 },
+                 
+             ],
+             texto:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut mollis est. Nulla tristique orci in sagittis feugiat. Donec bibendum, dui id bibendum feugiat, ipsum nibh commodo ligula, eget eleifend nisl ipsum consectetur lacus. Nullam id leo interdum, bibendum augue nec, facilisis erat. Curabitur et laoreet arcu. Curabitur faucibus sem quam, sed porta neque sodales vel. Nullam blandit tincidunt tempus. Nulla facilisi. Donec tempus enim ac enim volutpat, semper iaculis lorem auctor. Sed non rutrum massa, id pellentesque dolor. Morbi efficitur varius congue. Nunc in convallis urna. Sed accumsan lacus eget urna hendrerit sagittis.",
+ 
+        },
+        {
+            id: 12,
+            imgUrl: '/inicio.png',
+            nombre: 'Fotoperiodismo',
+            descripcion: '',
+            url: '/proyectos/12',
+            redsocial: [
+                {
+                     id: 1,
+                     nombre: 'Instagram',
+                     icono: 'Instagram',
+                     url: 'https://www.instagram.com/cineclub.aliciavega/'
+                 },
+                 {
+                     id: 2,
+                     nombre: 'Facebook',
+                     icono: 'Facebook',
+                     url: 'https://www.facebook.com/cineclubaliciavega'
+                 },
+                 {
+                     id: 3,
+                     nombre: 'Youtube',
+                     icono: 'Youtube',
+                     url: 'https://www.instagram.com/cineclub.aliciavega/'
+                 },
+                 
+             ],
+             texto:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut mollis est. Nulla tristique orci in sagittis feugiat. Donec bibendum, dui id bibendum feugiat, ipsum nibh commodo ligula, eget eleifend nisl ipsum consectetur lacus. Nullam id leo interdum, bibendum augue nec, facilisis erat. Curabitur et laoreet arcu. Curabitur faucibus sem quam, sed porta neque sodales vel. Nullam blandit tincidunt tempus. Nulla facilisi. Donec tempus enim ac enim volutpat, semper iaculis lorem auctor. Sed non rutrum massa, id pellentesque dolor. Morbi efficitur varius congue. Nunc in convallis urna. Sed accumsan lacus eget urna hendrerit sagittis.",
+ 
+        },
     ],
 
 
